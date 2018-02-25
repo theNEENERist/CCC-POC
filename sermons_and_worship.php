@@ -8,6 +8,7 @@
 		$API_KEY = 'AIzaSyBJTOixAJ1-Wn5F7oDd3tcx08eFPIW15Cg';
 		$ChannelID = 'UC9C4hm7oda7bYNqmyxwMtEg';
 
+		//https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC9C4hm7oda7bYNqmyxwMtEg&type=video&eventType=completed&key=AIzaSyBJTOixAJ1-Wn5F7oDd3tcx08eFPIW15Cg
 		$channelInfo = 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId='.$ChannelID.'&type=video&eventType=live&key='.$API_KEY;
 		$liveStreamInfo = 'https://www.youtube.com/embed/live_stream?channel='.$ChannelID;
 		
@@ -65,7 +66,7 @@
 		}
     
 	?>
-	<div class="container bg-dark">
+	<div class="container">
 		<div style="padding: 0 15px 0 15px;">
 			<h2>
 				<?php
@@ -73,14 +74,21 @@
 				?>
 			</h2>
 		</div>
-		<div class="col-sm-3 col-md-6 col-lg-4 media-col bg-dark">
+		<div class="col-sm-3 col-md-6 col-lg-4 media-col">
 		
 			<?php
 					$date = new DateTime($searchResult['snippet']['publishedAt']);
 				echo $date->format('F d, Y');
 			?>
+			
+			<br/>
+			
+			<?php
+				//echo $searchResult['snippet']['description'];
+				echo 'this is livestream content description text.  i hope this works and contains enough text.'
+			?>
 		</div>
-		<div class="col-sm-3 col-md-6 col-lg-8 media-col bg-dark">
+		<div class="col-sm-3 col-md-6 col-lg-8 media-col">
 			<div class="embed-responsive embed-responsive-16by9 ytp-cued-thumbnail-overlay">
 				<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/?listType=user_uploads&list=CCCMediaTube"></iframe>
 			</div>

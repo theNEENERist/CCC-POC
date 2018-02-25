@@ -7,16 +7,16 @@
 	<div class="collapse navbar-collapse" id="navbarCollapse">
 	  <ul class="navbar-nav mr-auto">
 		<li class="nav-item">
-		  <a class="nav-link" href="/index.php">Home <span class="sr-only">(current)</span></a>
+		  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="/sermons_and_worship.php">Sermons & Worship</a>
+		  <a class="nav-link" href="sermons_and_worship.php">Sermons & Worship</a>
 		</li>
 		<li class="nav-item">
 		  <a class="nav-link" href="#">Calendar</a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="/directions.php">Directions</a>
+		  <a class="nav-link" href="directions.php">Directions</a>
 		</li>
 		<li class="nav-item">
 		  <a class="nav-link" href="#">Classes</a>
@@ -29,6 +29,6 @@
 	</div>
   </nav>
   <script type="text/javascript">
-	$("a[href*='" + location.pathname + "']").addClass("active");
+	$("a[href*='" + location.pathname.replace("/", "") + "']").addClass("active");
   </script>
 </header>
