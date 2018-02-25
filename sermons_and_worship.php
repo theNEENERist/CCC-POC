@@ -1,7 +1,12 @@
 <?php $title = "CCC - Sermons & Worship" ?>
 <?php include 'inc/preContent.php'?>
-<div class="container">
 
+<div class="heroImg">
+	<img src="../img/crappy_live_streams.jpg">
+</div>
+
+<div class="container">
+	<h1>Live Stream</h1>
 	<?php
 		require_once 'vendor/autoload.php';
 		
@@ -27,8 +32,15 @@
 			</div>
 		</div>
 	<?php
+		} else {
+	?>
+		<div class="container">
+			
+	<?php
+			echo "We aren't currently live :(.  Our morning services are streamed live starting at 10:40 AM.  Check back then!";
 		}
 	?>
+		</div>
 	<?php
 		// $API_KEY = 'AIzaSyBJTOixAJ1-Wn5F7oDd3tcx08eFPIW15Cg';
 		// $ChannelID = 'UC9C4hm7oda7bYNqmyxwMtEg';
@@ -63,11 +75,51 @@
 		
 		foreach ($searchResponse['items'] as $searchResult) {
 		  // echo $searchResult['snippet']['title'];
-		}
+		
     
 	?>
-	<div class="container">
-		<div style="padding: 0 15px 0 15px;">
+	<h1>Past Services</h1>
+	
+	<div class="container" style="overflow: hidden;">
+		<div>
+			<h3>
+				<?php
+					echo $searchResult['snippet']['title'];		
+				?>
+			</h3>
+		</div>
+		<div class="col-sm-3 col-md-6 col-lg-4 media-col">
+			<!--<hr style="margin-top:0;">-->
+			<strong>
+			<?php
+				$date = new DateTime($searchResult['snippet']['publishedAt']);
+				echo $date->format('F d, Y');
+			?>
+			</strong>
+			<br/>
+			
+			<?php
+				//echo $searchResult['snippet']['description'];
+				echo 'this is livestream content description text.  i hope this works and contains enough text. Rachael is awesome and deserves ice cream.';
+				
+				$videoURL = 'https://www.youtube.com/embed/'.$searchResult['id']['videoId'].'?autoplay=0&origin=http://calvarychristianchurch.com';
+			?>
+		</div>
+		
+		<div class="col-sm-3 col-md-6 col-lg-8 media-col">
+			<div class="embed-responsive embed-responsive-16by9 ytp-cued-thumbnail-overlay">
+				<iframe class="embed-responsive-item" allowFullScreen='allowFullScreen' src="<?php echo $videoURL; ?>" frameborder="0"></iframe>
+			</div>
+		</div>
+		
+	</div>
+	<hr>
+	<?php } ?>
+	
+	<!--delete this code -->
+	
+	<div class="container" style="overflow: hidden;">
+		<div>
 			<h2>
 				<?php
 					echo $searchResult['snippet']['title'];		
@@ -75,26 +127,36 @@
 			</h2>
 		</div>
 		<div class="col-sm-3 col-md-6 col-lg-4 media-col">
-		
+			<strong>
 			<?php
-					$date = new DateTime($searchResult['snippet']['publishedAt']);
+				$date = new DateTime($searchResult['snippet']['publishedAt']);
 				echo $date->format('F d, Y');
 			?>
-			
+			</strong>
 			<br/>
 			
 			<?php
 				//echo $searchResult['snippet']['description'];
-				echo 'this is livestream content description text.  i hope this works and contains enough text.'
+				echo 'this is livestream content description text.  i hope this works and contains enough text.';
+				
+				$videoURL = 'https://www.youtube.com/embed/'.$searchResult['id']['videoId'].'?autoplay=0&origin=http://calvarychristianchurch.com';
 			?>
 		</div>
+		
 		<div class="col-sm-3 col-md-6 col-lg-8 media-col">
+			<div class="embed-responsive embed-responsive-16by9 ytp-cued-thumbnail-overlay">
+				<iframe class="embed-responsive-item" allowFullScreen='allowFullScreen' src="<?php echo $videoURL; ?>" frameborder="0"></iframe>
+			</div>
+		</div>
+		
+	</div>
+	
+	<!--delete this code -->
+	<!--<div class="col-sm-3 col-md-6 col-lg-8 media-col">
 			<div class="embed-responsive embed-responsive-16by9 ytp-cued-thumbnail-overlay">
 				<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/?listType=user_uploads&list=CCCMediaTube"></iframe>
 			</div>
-		</div>
-	</div>
+		</div>-->
 
 </div>	
 <?php include 'inc/postContent.php'?>
-
