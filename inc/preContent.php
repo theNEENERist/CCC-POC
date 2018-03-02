@@ -20,3 +20,14 @@
  </head>
  <body>
 	<?php include 'header.php'?>
+	
+	<?php
+		if($title != "CCC - Home") 
+		{
+	?>
+		<div class="heroImg">
+			<img src="<?php echo $imgSrc; ?>">
+		</div>
+	<?php
+		}
+	?>

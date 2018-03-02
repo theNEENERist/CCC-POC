@@ -1,9 +1,10 @@
+<?php 
+	global $variable;
+	$imgSrc = "../img/crappy_live_streams.jpg";
+?>
+
 <?php $title = "CCC - Sermons & Worship" ?>
 <?php include 'inc/preContent.php'?>
-
-<div class="heroImg">
-	<img src="../img/crappy_live_streams.jpg">
-</div>
 
 <div class="container">
 	<h1>Live Stream</h1>
@@ -69,13 +70,16 @@
 	<?php
 		} else {
 	?>
-		<div class="container">
+		<div class="container" style="overflow: auto;">
 			
 	<?php
 			echo "We aren't currently live :(.  Our morning services are streamed live starting at 10:40 AM.  Check back then!";
 		}
 	?>
+	
 		</div>
+	</div>
+	<div class="container">
 		<h1>Past Services</h1>
 	<?php
 		// $API_KEY = 'AIzaSyBJTOixAJ1-Wn5F7oDd3tcx08eFPIW15Cg';
@@ -148,7 +152,7 @@
 	
 	<!--<div class="col-sm-3 col-md-6 col-lg-8 media-col">
 			<div class="embed-responsive embed-responsive-16by9 ytp-cued-thumbnail-overlay">
-				<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/?listType=user_uploads&list=CCCMediaTube"></iframe>
+				<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/?listType=user_uploads&list=CCCMediaTube" frameborder="0"></iframe>
 			</div>
 		</div>-->
 

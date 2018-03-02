@@ -85,6 +85,33 @@
 		<!-- START THE FEATURETTES -->
 
 		<hr class="featurette-divider">
+		
+		<div class="container" style="text-align: center; overflow: auto;">
+			<h2>Service Times</h2>
+			
+			<div class="col-lg-1" style="float:left">
+			</div>
+			
+			<div class="col-lg-5 right-border" style="float:left">
+				<h3>Sunday</h3>
+				<p>Sunday School: 9:30 AM</p>
+				<p>Worship: 10:40 AM</p>
+			</div>
+			
+			<div class="col-lg-5" style="float:left">
+				<h3>Wednesday</h3>
+				<p>Bible Study: 6:30 PM</p>
+			</div>
+			
+			<div class="col-lg-1" style="float:left">
+			</div>
+		</div>
+		
+		<div class="container" style="text-align: center; overflow: auto; margin-top:10px;">
+			<a target="_blank" href="https://www.google.com/maps?ll=38.385264,-85.758921&z=14&t=m&hl=en&gl=US&mapclient=embed&q=605+S+Norman+Dr+Sellersburg,+IN+47172"><button type="button" class="btn btn-lg btn-primary">Visit Us!</button></a>
+		</div>
+		
+		<hr class="featurette-divider">
 
 		<div class="row featurette">
 		  <div class="col-md-7">
