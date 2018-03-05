@@ -1,5 +1,5 @@
 <header>
-	 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
 		<a class="navbar-brand" href="/index.php">Calvary Christian Church</a>
 		<button class="navbar-toggler" aria-expanded="false" aria-controls="navbarCollapse" aria-label="Toggle navigation" type="button" data-toggle="collapse" data-target="#navbarCollapse">
 			<span class="navbar-toggler-icon"></span>
@@ -18,6 +18,7 @@
 					  <a class="dropdown-item" href="our_leaders.php">Our Leaders</a>
 					  <a class="dropdown-item" href="our_story.php">Our Story</a>
 					  <a class="dropdown-item" href="what_to_expect.php">What to Expect</a>
+					  <a class="dropdown-item" href="what_we_believe.php">What We Believe</a>
 					</div>
 				</li>
 				<li class="nav-item">
@@ -37,7 +38,7 @@
 	</nav>
 	
 	<script type="text/javascript">
-		var aboutPages = ['about_us.php', 'our_leaders.php', 'our_story.php', 'what_to_expect.php'];
+		var aboutPages = ['about_us.php', 'our_leaders.php', 'our_story.php', 'what_to_expect.php', 'what_we_believe.php'];
 		
 		var isAboutPage = (aboutPages.indexOf(location.pathname.replace("/", "")) > -1);
 		

@@ -21,12 +21,12 @@
 	</div>
 	<br/>
 
-	<div class="col-9 float-left overflow-auto mb-4">
+	<div class="col-lg-9 float-left overflow-auto mb-4">
 		On June 1, 1986 forty people attended the first Sunday worship service of the new church. There was one class for adults and three for young people. On that first day, thirteen people placed their membership with the new church. For the first 18 months, the church met in the basement of the REMC building (now Gaylor) on East Utica Street. Average attendance during that time was 35.
 	</div>
 	<br/>
 	
-	<div class="col-3 float-left mb-4">
+	<div class="col-lg-3 float-left mb-4">
 		<img src="../img/our_story.jpg">
 	</div>
 	<br/>

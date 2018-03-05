@@ -8,7 +8,7 @@
 
 <div class="container">
 	<div class="col overflow-auto mt-4">
-		<h1>Our Leadership</h1>
+		<h1>Our Leaders</h1>
 	</div>
 	<br/>
 	
@@ -53,21 +53,27 @@
 	
 	<hr/>
 	
-	<div class="mt-4">
+	<div class="mt-4 overflow-auto">
 		<div class="col overflow-auto">
 			<h3>Elders/Pastors</h3>
 		</div>
 		
-		<div class="col-4 overflow-auto float-left text-center">
+		<div class="col-lg-4 overflow-auto float-left text-center">
 			<img src="../img/our-leadership-marty.jpg">
+			<br/>
+			Marty Elder
 		</div>
 		
-		<div class="col-4 overflow-auto float-left text-center">
+		<div class="col-lg-4 overflow-auto float-left text-center">
 			<img src="../img/our-leadership-gary-t.jpg">
+			<br/>
+			Gary Thieneman
 		</div>
 		
-		<div class="col-4 overflow-auto float-left text-center">
+		<div class="col-lg-4 overflow-auto float-left text-center">
 			<img src="../img/our-leadership-jack.jpg">
+			<br/>
+			Jack Warner
 		</div>
 	</div>
 	

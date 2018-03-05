@@ -1,3 +1,12 @@
+		  <!-- FOOTER -->
+	<footer class="bg-dark text-white">
+		<div class="container">
+			<p class="float-right"><a href="#">Back to top</a></p>
+			<p>© 2018 Calvary Christian Church<br/>
+			605 S Norman Drive<br/>
+			Sellersburg, IN 47172</p>
+		</div>
+	</footer>
 	<!--<div class="footer bg-dark text-white">
 		<div class="contact">
 			Calvary Christian Church<br>
