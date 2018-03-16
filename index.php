@@ -71,7 +71,7 @@
 			<img width="140" height="140" class="rounded-circle" alt="Generic placeholder image" src="../img/cal_circle.png">
 			<h2>Calendar</h2>
 			<p>Checkout our Church calendar to see what events we have coming up.</p>
-			<p><a class="btn btn-secondary" role="button" href="#">View details »</a></p>
+			<p><a class="btn btn-secondary" role="button" target="_new" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">View details »</a></p>
 		  </div><!-- /.col-lg-4 -->
 		  <div class="col-lg-4">
 			<img width="140" height="140" class="rounded-circle" alt="Generic placeholder image" src="./img/CrossInCircle.png">

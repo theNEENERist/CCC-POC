@@ -25,9 +25,6 @@
 					<a class="nav-link" href="sermons_and_worship.php">Sermons & Worship</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="calendar.php">Calendar</a>
-				</li>
-				<li class="nav-item">
 					<a class="nav-link" href="directions.php">Directions</a>
 				</li>
 				<li class="nav-item">
