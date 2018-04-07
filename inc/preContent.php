@@ -17,12 +17,13 @@
 	<link href="/../css/main.css" rel="stylesheet">
 	
 	<script type="text/javascript" src="/../js/jquery-3.3.1.min.js"></script>
+	<script defer src="/../js/fontawesome-all.js"></script>
  </head>
  <body>
 	<?php include 'header.php'?>
 	
 	<?php
-		if($title != "CCC - Home") 
+		if($title != "CCC - Home" && $imgSrc != "")
 		{
 	?>
 		<div class="heroImg">
@@ -30,4 +31,16 @@
 		</div>
 	<?php
 		}
+		
+		$dbhost = '127.0.0.1:3036';
+		$dbuser = 'root';
+		$dbpass = 'narnia3#';
+		$database = 'ccc';
+		$host="localhost";
+		$port=3306;
+		$socket="";
+		$user="root";
+		$password="";
+		$dbname="";
+        
 	?>

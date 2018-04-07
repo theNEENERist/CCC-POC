@@ -14,31 +14,22 @@
 		<div>
 		
 		<?php
-		   $dbhost = '127.0.0.1:3036';
-		   $dbuser = 'root';
-		   $dbpass = 'narnia3#';
-		   $database = 'ccc';
+		   // $dbhost = '127.0.0.1:3036';
+		   // $dbuser = 'root';
+		   // $dbpass = 'narnia3#';
+		   // $database = 'ccc';
 		   
-			$host="localhost";
-			$port=3306;
-			$socket="";
-			$user="root";
-			$password="";
-			$dbname="";
+			// $host="localhost";
+			// $port=3306;
+			// $socket="";
+			// $user="root";
+			// $password="";
+			// $dbname="";
 
 			$mysqli = new mysqli($host, $user, $password, $dbname, $port, $socket)
 				or die ('Could not connect to the database server' . mysqli_connect_error());
 
-			//$con->close();
-
-		   
-		   // if(! $conn ) {
-			  // die('Could not connect: ' . mysql_error());
-		   // }
-		   
-		   // @mysql_select_db($database) or die( "Unable to select database");
-		   
-		   $sql = 'SELECT 
+			$sql = 'SELECT 
 				teacher
 				,topic
 				,classType
@@ -47,11 +38,16 @@
 			$result = $mysqli->query($sql);
 			foreach ($result as $row)
 			{
-				echo $row['teacher'] . "<br/>";
+			?>
+			<div class="col-3 float-left text-center bg-blue text-white rounded-border pd-5">
+			<?php
 				echo $row['topic'] . "<br/>";
-				echo $row['classType'] . "<br/>";
-			}
+				echo $row['teacher'] . "<br/>";
+			?>
+				</div>
 			
+			<?php
+			}
 
 
 // $mysqli->query($sql);
@@ -66,6 +62,8 @@
 		   
 		   mysqli_close($mysqli);
 		?>
+		
+		
 			
 			<!--<div class="col-sm-3 col-md-6 col-lg-4 float-left text-center">
 				<h4>Sunday - 9:30 AM</h4>

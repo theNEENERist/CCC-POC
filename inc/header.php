@@ -1,15 +1,13 @@
 <header>
 	 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
-		<a class="navbar-brand" href="/index.php">Calvary Christian Church</a>
+		<!--<a class="navbar-brand" href="/index.php">Calvary Christian Church</a>-->
+		<a class="navbar-brand" href="/index.php"><img src="../img/calvary-header-logo.png" /></a>
 		<button class="navbar-toggler" aria-expanded="false" aria-controls="navbarCollapse" aria-label="Toggle navigation" type="button" data-toggle="collapse" data-target="#navbarCollapse">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="index.php">Home</a>
-				</li>
-				<li class="nav-item dropdown">
+			<ul class="navbar-nav ml-auto pr-4 navbar-right">
+					<li class="nav-item dropdown">
 					 <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					  About Us
 					</a>
@@ -30,17 +28,33 @@
 				<li class="nav-item">
 					<a class="nav-link" href="classes.php">Classes</a>
 				</li>
+				<li class="nav-item dropdown">
+					 <a class="nav-link dropdown-toggle" href="#" id="prayerDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Prayer
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="prayer_list.php">Prayer List</a>
+					  <a class="dropdown-item" href="submit_prayer_request.php">Submit a Request</a>
+					</div>
+				</li>
 			</ul>
 		</div>
 	</nav>
 	
 	<script type="text/javascript">
 		var aboutPages = ['about_us.php', 'our_leaders.php', 'our_story.php', 'what_to_expect.php', 'what_we_believe.php'];
-		
 		var isAboutPage = (aboutPages.indexOf(location.pathname.replace("/", "")) > -1);
 		
 		if(isAboutPage) {
 			$("#aboutDropdown").addClass("active");
+		}
+			$("a[href*='" + location.pathname.replace("/", "") + "']").addClass("active");
+			
+		var prayerPages = ['prayer_requests.php', 'submit_prayer_request.php'];
+		var isPrayerPage = (prayerPages.indexOf(location.pathname.replace("/", "")) > -1);
+		
+		if(isPrayerPage) {
+			$("#prayerDropdown").addClass("active");
 		}
 			$("a[href*='" + location.pathname.replace("/", "") + "']").addClass("active");
 		
