@@ -1,65 +1,39 @@
-		  <!-- FOOTER
-	<footer class="overflow-auto col-12">
-		<div class="bg-secondary text-white">
-			<div class="container">
-				<!--<p class="float-right"><a href="#">Back to top</a></p>
-				<div class="col-3 float-left overflow-auto">
-					<a class="navbar-brand" href="/index.php"><img src="../img/calvary-header-logo.png" /></a>
-				</div>
-					
-				<div class="col-3 float-left overflow-auto">
-					<nav>
-						
-					</nav>
-				</div>
-				
-				<div class="col-3 float-left overflow-auto">
-				content
-				</div>
-				
-				<div class="col-3 float-left overflow-auto">
-				content
-				</div>
-				
-				<div class="text-center">
-					© 2018 Calvary Christian Church
-				</div>
-			</div>
-		</div>
-		<div class="bg-blue text-white">
-			<div class="container">
-			content
-			</div>
-		</div>
-	</footer>
-	-->
-	
 	<section id="footer" class="mt-4">
 		<div class="container">
 			<div class="row text-center text-xs-center text-sm-left text-md-left">
-				<div class="col-xs-12 col-sm-4 col-md-4">
+				<div class="col-xs-12 col-sm-3 col-md-3">
 					<h5>About Us</h5>
+					<hr>
 					<ul class="list-unstyled quick-links">
-						<li><a href="about_us.php"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="our_leaders.php"><i class="fa fa-angle-double-right"></i>Our Leaders</a></li>
-						<li><a href="our_story.php"><i class="fa fa-angle-double-right"></i>Our Story</a></li>
-						<li><a href="what_to_expect.php"><i class="fa fa-angle-double-right"></i>What to Expect</a></li>
-						<li><a href="what_we_believe.php"><i class="fa fa-angle-double-right"></i>What We Believe</a></li>
+						<li><a href="about_us.php">About</a></li>
+						<li><a href="#">Service Times</a></li>
+						<li><a href="our_story.php">Our Story</a></li>
+						<li><a href="what_we_believe.php">Our Worldview</a></li>
+						<li><a href="what_to_expect.php">Plan Your Visit</a></li>
+						<li><a href="our_leaders.php">Our Leaders</a></li>
+						<li><a href="#">Contact Us</a></li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<h5>Sermons</h5>
+					<hr>
 					<ul class="list-unstyled quick-links">
-						<li><a href="sermons_and_worship.php"><i class="fa fa-angle-double-right"></i>Sermons and Worship</a></li>
-						<li><a href="directions.php"><i class="fa fa-angle-double-right"></i>Directions</a></li>
-						<li><a href="classes.php"><i class="fa fa-angle-double-right"></i>Classes</a></li>
+						<li><a href="sermons_and_worship.php">Watch Past Sermons</a></li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Prayer</h5>
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<h5>Classes</h5>
+					<hr>
 					<ul class="list-unstyled quick-links">
-						<li><a href="prayer_list.php"><i class="fa fa-angle-double-right"></i>Prayer List</a></li>
-						<li><a href="submit_prayer_request.php"><i class="fa fa-angle-double-right"></i>Submit a Request</a></li>
+						<li><a href="#"></i>Children/Youth</a></li>
+						<li><a href="#"></i>Adult</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<h5>Find Us</h5>
+					<hr>
+					<ul class="list-unstyled quick-links">
+						<li><a href="directions.php"></i>Directions</a></li>
 					</ul>
 				</div>
 			</div>

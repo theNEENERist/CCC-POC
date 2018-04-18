@@ -140,11 +140,11 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #6c757d !important;
+    background: rgb(26,26,26) !important;
 }
 #footer h5{
 	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
+    /* border-left: 3px solid #eeeeee; */
     padding-bottom: 6px;
     margin-bottom: 20px;
     color:#ffffff;
@@ -155,6 +155,7 @@ section .section-title {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
+
 #footer ul.social li{
 	padding: 3px 0;
 }
@@ -169,12 +170,15 @@ section .section-title {
 	font-size:30px;
 	margin-top:-10px;
 }
-#footer ul.social li a,
+#footer ul.social li a {
+	color: #fff;
+}
 #footer ul.quick-links li a{
-	color:#ffffff;
+	color:#3376bc;
+	font-size: 18px;
 }
 #footer ul.social li a:hover{
-	color:#eeeeee;
+	color:#3376bc;
 }
 #footer ul.quick-links li{
 	padding: 3px 0;
