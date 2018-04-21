@@ -35,8 +35,8 @@ hr {
 	margin:18px 0;	
 	position:relative;	
 	background-image: radial-gradient(#3376bc, #FFF), radial-gradient(#3376bc, #FFF);	
-	clear: left:
-	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff0000', endColorstr='#00ff0000',GradientType=1 ); /* IE6-9 */	 */
+	clear: left;
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff0000', endColorstr='#00ff0000',GradientType=1 ); /* IE6-9 */	
 }	
 
 hr:before {	
@@ -124,9 +124,9 @@ body > div.container > h1 {
 	margin: 0 15px 0 15px;
 }
 
-nav {
+/* nav {
 	0px 0px 60px transparent;
-}
+} */
 
 /* Footer*/
 section {
@@ -140,7 +140,8 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: rgb(26,26,26) !important;
+	/* background: rgb(26,26,26) !important; */
+	background: #6c757d !important;
 }
 #footer h5{
 	padding-left: 10px;

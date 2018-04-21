@@ -50,8 +50,8 @@
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 float-left mt-4">
 						<ul class="list-unstyled list-inline social text-center">
-							<li class="list-inline-item" ><a href="https://www.facebook.com/calvarychristianchurchsellersburg/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-							<li class="list-inline-item" ><a href="https://www.youtube.com/channel/UC7z_cEyyFvQ0VMAKDm7y9_w" target="_blank"><i class="fa fa-youtube"></i></a></li>
+							<li class="list-inline-item" ><a href="https://www.facebook.com/calvarychristianchurchsellersburg/" target="_blank"><i style="font-size: 40px;" class="fab fa-facebook-f"></i></a></li>
+							<li class="list-inline-item" ><a href="https://www.youtube.com/channel/UC7z_cEyyFvQ0VMAKDm7y9_w" target="_blank"><i style="font-size: 40px;" class="fab fa-youtube"></i></a></li>
 						</ul>
 					</div>
 				</div>
