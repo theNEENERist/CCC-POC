@@ -1,6 +1,6 @@
 <?php 
 	global $variable;
-	$imgSrc = "../img/crappy_live_streams.jpg";
+	$imgSrc = "../img/ccc-cross-image.png";
 ?>
 
 <?php $title = "CCC - Directions" ?>

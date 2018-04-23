@@ -28,6 +28,62 @@ body > div.heroImg > img {
 	height: 32rem;
 }
 
+body, html {
+	padding: 0;
+	width: 100%;
+}
+
+.jumbotron {
+	background: #fff;
+	border-radius: 0;
+}
+
+.jumbotronInnerContent {
+	margin-top: 250px;
+}
+
+#welcomeText {
+	font-size: 80px;
+	font-weight: 600;
+}
+
+#thirdFeature {
+	position: absolute;
+	top: 1750px;
+	z-index: 10;
+	color: #fff;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	right: 0;
+	left: 0;
+	font-weight:800 !important;
+}
+
+#thirdFeature h1 {
+	font-size: 80px;
+}
+
+@media (max-width: 480px) {
+	.jumbotronInnerContent {
+		margin-top: 100px;
+	}
+
+	#welcomeText {
+		font-size: 60px;
+	}
+
+	#thirdFeature h1 {
+		font-size: 60px;
+	}
+	
+}
+
+@media (max-width: 767px){
+	#navigate {
+		background-color: #3376bc;
+	}
+}
 
 hr {	
 	border: 0;	
@@ -118,10 +174,24 @@ body > div.container > h1 {
 
 .nav-link {
 	font-size: 24px;
+	font-weight: bold;
+	color: rgba(255, 255, 255, .75) !important;
+}
+
+.nav-link:hover {
+	font-size: 24px;
+	color: rgb(255, 255, 255) !important;
 }
 
 .nav-item {
 	margin: 0 15px 0 15px;
+}
+
+.homeContent {
+	z-index: 10;
+	color: #fff;
+	text-align: center;
+	padding: 13%;
 }
 
 /* nav {
@@ -140,8 +210,8 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-	/* background: rgb(26,26,26) !important; */
-	background: #6c757d !important;
+	background: rgb(26,26,26) !important;
+	/* background: #6c757d !important; */
 }
 #footer h5{
 	padding-left: 10px;
@@ -207,7 +277,7 @@ section .section-title {
     padding-left: 0;
     border-left: transparent;
     padding-bottom: 0px;
-    margin-bottom: 10px;
-}
+	margin-bottom: 10px;
+	}
 }
 /* footer */

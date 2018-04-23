@@ -1,7 +1,7 @@
 <header>
-	 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
+	 <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navigate">
 		<!--<a class="navbar-brand" href="/index.php">Calvary Christian Church</a>-->
-		<a class="navbar-brand" href="/index.php"><img src="../img/calvary-header-logo.png" /></a>
+		<a class="navbar-brand" href="/index.php"><img id="navImg" src="../img/ccc-web-logo.png" /></a>
 		<button class="navbar-toggler" aria-expanded="false" aria-controls="navbarCollapse" aria-label="Toggle navigation" type="button" data-toggle="collapse" data-target="#navbarCollapse">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -20,10 +20,7 @@
 					</div>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="sermons_and_worship.php">Sermons & Worship</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="directions.php">Directions</a>
+					<a class="nav-link" href="sermons_and_worship.php">Sermons</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="classes.php">Classes</a>
@@ -36,6 +33,9 @@
 					  <a class="dropdown-item" href="prayer_list.php">Prayer List</a>
 					  <a class="dropdown-item" href="submit_prayer_request.php">Submit a Request</a>
 					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="directions.php">Directions</a>
 				</li>
 			</ul>
 		</div>
