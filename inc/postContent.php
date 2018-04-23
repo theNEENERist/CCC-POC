@@ -71,8 +71,7 @@
 			jQuery(window).scroll(function(){
 				var fromTopPx;
 				var screenWidth = $(window).width();
-				
-				if (screenWidth > 767px){
+				if (screenWidth > 767){
 					if(location.pathname.replace("/", "") === "index.php") {
 						fromTopPx = 800; // distance to trigger
 					}else {
@@ -89,7 +88,7 @@
 				}
 				else {
 					jQuery('#navigate').addClass('bg-blue');
-					$('#navImg').attr('src', '../img/calvary-web-logo.png');
+					$('#navImg').attr('src', '../img/calvary-header-logo.png');
 				}
 			});
 		</script>
