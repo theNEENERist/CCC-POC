@@ -7,7 +7,7 @@
 		<div style="position: absolute;top: 125px;right: 15%;left: 15%;z-index: 10;padding-top: 40px;padding-bottom: 20px;color: #fff;text-align: center;">
 			<h1 id="welcomeText">Welcome to Calvary Christian</h1>
 			<p class="jumbotronInnerContent">
-				<input type="text" class="col-3" style="height: 60px; line-height: 40px; padding: 8px;" id="address" name="address" placeholder="Enter Your Address">
+				<input type="text" class="col-xs-12 col-s-12 col-md-12 col-lg-3" style="height: 60px; line-height: 40px; padding: 8px; top: 2px; margin-bottom: 10px;" id="address" name="address" placeholder="Enter Your Address">
 				<!-- <a class="btn btn-lg btn-primary col-3" style="height: 60px; line-height: 40px;" role="button" href="#">Find Us</a> -->
 				<a id="btnFindUs" class="btn btn-lg btn-primary col-xs-12 col-s-12 col-md-12 col-lg-3" style="height: 60px; line-height: 40px;" role="button" onclick="findUs()">FIND US</a>	
 			</p>
