@@ -31,6 +31,8 @@ body > div.heroImg > img {
 body, html {
 	padding: 0;
 	width: 100%;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif !important;;
 }
 
 .jumbotron {
@@ -39,7 +41,7 @@ body, html {
 }
 
 .jumbotronInnerContent {
-	margin-top: 250px;
+	margin-top: 200px;
 }
 
 #welcomeText {
@@ -49,7 +51,7 @@ body, html {
 
 #thirdFeature {
 	position: absolute;
-	top: 1750px;
+	top: 2050px;
 	z-index: 10;
 	color: #fff;
 	text-align: center;
@@ -81,7 +83,7 @@ body, html {
 
 @media (max-width: 767px){
 	#navigate {
-		background-color: #3376bc;
+		background-color: #0066ff;
 	}
 }
 
@@ -90,7 +92,7 @@ hr {
 	height: 2px;	
 	margin:18px 0;	
 	position:relative;	
-	background-image: radial-gradient(#3376bc, #FFF), radial-gradient(#3376bc, #FFF);	
+	background-image: radial-gradient(#0066ff, #FFF), radial-gradient(#0066ff, #FFF);	
 	clear: left;
 	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff0000', endColorstr='#00ff0000',GradientType=1 ); /* IE6-9 */	
 }	
@@ -98,7 +100,7 @@ hr {
 hr:before {	
 	content: "";	
 	display: block;	
-	border-top: solid 1px #3376bc;	
+	border-top: solid 1px #0066ff;	
 	width: 100%;	
 	height: 1px;	
 	position: absolute;	
@@ -123,20 +125,20 @@ body > div.container > h1 {
 		border-width: 2px 2px 2px 0;
 		border-style: solid;
 		-webkit-border-image: 
-		  -webkit-gradient(linear, 0 0, 0 100%, from(#3376bc), to(rgba(0, 0, 0, 0))) 1 100%;
+		  -webkit-gradient(linear, 0 0, 0 100%, from(#0066ff), to(rgba(0, 0, 0, 0))) 1 100%;
 		-webkit-border-image: 
-		  -webkit-linear-gradient(#3376bc, rgba(0, 0, 0, 0)) 1 100%;
+		  -webkit-linear-gradient(#0066ff, rgba(0, 0, 0, 0)) 1 100%;
 		-moz-border-image:
-		  -moz-linear-gradient(#3376bc, rgba(0, 0, 0, 0)) 1 100%;    
+		  -moz-linear-gradient(#0066ff, rgba(0, 0, 0, 0)) 1 100%;    
 		-o-border-image:
-		  -o-linear-gradient(#3376bc, rgba(0, 0, 0, 0)) 1 100%;
+		  -o-linear-gradient(#0066ff, rgba(0, 0, 0, 0)) 1 100%;
 		border-image:
-		  linear-gradient(to bottom, #3376bc, rgba(0, 0, 0, 0)) 1 100%;
+		  linear-gradient(to bottom, #0066ff, rgba(0, 0, 0, 0)) 1 100%;
 	}
 }
 
 /* .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { */
-	/* color: #3376bc; */
+	/* color: #0066ff; */
 /* } */
 
 /* .text-muted { */
@@ -144,8 +146,8 @@ body > div.container > h1 {
 /* } */
 
 .btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:hover {
-	border-color: #3376bc;
-	background-color: #3376bc;
+	border-color: #0066ff;
+	background-color: #0066ff;
 	box-shadow: none;
 }
 
@@ -161,7 +163,7 @@ body > div.container > h1 {
 }
 
 .bg-blue {
-	background-color: #3376bc;
+	background-color: #0066ff;
 }
 
 .rounded-border {
@@ -191,7 +193,7 @@ body > div.container > h1 {
 	z-index: 10;
 	color: #fff;
 	text-align: center;
-	padding: 13%;
+	padding: 12%;
 }
 
 /* nav {
@@ -245,11 +247,11 @@ section .section-title {
 	color: #fff;
 }
 #footer ul.quick-links li a{
-	color:#3376bc;
+	color:#0066ff;
 	font-size: 18px;
 }
 #footer ul.social li a:hover{
-	color:#3376bc;
+	color:#0066ff;
 }
 #footer ul.quick-links li{
 	padding: 3px 0;
@@ -269,7 +271,15 @@ section .section-title {
     font-weight: 700;
 }
 .spock {
-	color: #3376bc
+	color: #0066ff
+}
+
+.planYourVisit:hover {	
+	text-decoration: none
+}
+
+.homeContent:hover {
+	color: #d3d3d3;
 }
 
 @media (max-width:767px){

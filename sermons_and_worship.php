@@ -92,7 +92,7 @@
 			// query term.
 			$searchResponse = $youtube->search->listSearch('id,snippet', array(
 			  'eventType' =>  'completed',
-			  'maxResults' => '10',
+			  'maxResults' => '5',
 			  'type' => 'video',
 			  'channelId' => $ChannelID,
 			));

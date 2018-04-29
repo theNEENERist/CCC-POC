@@ -27,7 +27,7 @@
 	<br/>
 	
 	<div class="col-lg-3 float-left mb-4">
-		<img src="../img/our_story.jpg">
+		<img src="../img/our_story.jpg" alt="Our Story">
 	</div>
 	<br/>
 

@@ -1,53 +1,53 @@
-	<section id="footer" class="pt-4">
+	<section id="footer" class="pt-4 mt-4">
 		<div class="container">
 			<div class="row text-center text-xs-center text-sm-left text-md-left">
-				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<h5>About Us</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
 						<li><a href="about_us.php">About</a></li>
-						<li><a href="#">Service Times</a></li>
+						<!-- <li><a href="#">Service Times</a></li> -->
 						<li><a href="our_story.php">Our Story</a></li>
 						<li><a href="what_we_believe.php">Our Worldview</a></li>
 						<li><a href="what_to_expect.php">Plan Your Visit</a></li>
 						<li><a href="our_leaders.php">Our Leaders</a></li>
-						<li><a href="#">Contact Us</a></li>
+						<!-- <li><a href="#">Contact Us</a></li> -->
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<h5>Sermons</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
 						<li><a href="sermons_and_worship.php">Watch Past Sermons</a></li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3">
+				<!-- <div class="col-xs-12 col-sm-6 col-md-3">
 					<h5>Classes</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
 						<li><a href="#"></i>Children/Youth</a></li>
 						<li><a href="#"></i>Adult</a></li>
 					</ul>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-3">
+				</div> -->
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<h5>Find Us</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
-						<li><a href="directions.php"></i>Find Us</a></li>
+						<li><a href="directions.php"></i>Directions</a></li>
 					</ul>
 				</div>
 			</div>
 			<hr>
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-3 col-md-3 mt-2 mt-sm-2 text-center text-white float-left">
-					<a class="navbar-brand" href="/index.php"><img src="../img/calvary-header-logo.png" /></a>
+					<a class="navbar-brand" href="/index.php"><img src="../img/calvary-header-logo.png" alt="Calvary Christian Church" /></a>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-9 col-lg-9 mt-2 mt-sm-2 text-white float-left">
 					<div class="col-sm-12 col-md-12 col-lg-6 float-left text-center">
 						605 Norman Drive<br>
 						Sellersburg, IN 47172<br>
 						(812) 246-4383<br>
-						<a href="info@calvarychristianchurch.com">info@calvarychristianchurch.com</a>
+						<a href="mailto:info@calvarychristianchurch.com">info@calvarychristianchurch.com</a>
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 float-left mt-4 text-center">
 						<ul class="list-unstyled list-inline social text-center">
