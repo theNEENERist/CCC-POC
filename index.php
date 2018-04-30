@@ -27,7 +27,7 @@
 		</div>
 	</a>
 
-	<a href="../content/bulletin/Bulletin 04222018.pdf" target="_blank"	>
+	<a id="help" href="../content/bulletin/Bulletin.pdf" target="_blank"	>
 		<div style="height: 50rem; overflow: hidden;">
 			<img src="../img/ccc-church-building-blue-filter.png" alt="Calvary Christian Church Building" style="height: 50rem; min-width: 100%;" />
 			<div id="thirdFeature">
