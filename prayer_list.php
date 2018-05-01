@@ -29,8 +29,8 @@
 				foreach($result as $row)
 				{
 				?>
-				<div class="prayerColumn col-xs-12 col-sm-6 col-md-4 col-lg-3 float-left text-left px-2 mt-2" id="prayerColumn<?php echo $i ?>">	
-					<button type="button" class="btn btn-link text-left" style="white-space: normal;" data-toggle="modal" data-target="#modal_<?php echo $counter ?>"><i class="fas fa-hand-spock spock"></i> <?php echo $row['RequestFor']; ?></button>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 float-left text-left px-2 mt-2" id="prayerColumn<?php echo $i ?>">	
+					<button type="button" class="btn btn-link text-left request-btn" style="white-space: normal;" data-toggle="modal" data-target="#modal_<?php echo $counter ?>"><span class="icon-bullet"><i class="fas fa-hand-spock spock"></i></span><span class="bullet">&#8226;</span> <?php echo $row['RequestFor']; ?>: <span class="requestInline"><?php echo $row['Request']; ?></span></button>
 					<div class="modal fade" id="modal_<?php echo $counter;?>" role="dialog" aria-labelledby="modal_<?php echo $counter;?>" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -57,4 +57,3 @@
 			?>
 </div>
 <?php include 'inc/postContent.php'?>
-this request for is much l

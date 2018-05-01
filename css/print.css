@@ -1,0 +1,30 @@
+body, html {
+	padding: 0;
+	width: 100%;
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif !important;;
+}
+
+.jumbotron {
+    display: none;
+}
+
+#footer {
+    display: none;
+}
+
+.requestInline {
+    display: inline;
+}
+
+.request-btn {
+	color: black;
+}
+
+.icon-bullet {
+    display: none;
+}
+
+.bullet {
+    display: inline;
+}

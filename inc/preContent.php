@@ -14,7 +14,9 @@
     <!-- Custom styles for this template -->
     <link href="/../css/carousel.css" rel="stylesheet">
 	
-	<link href="/../css/main.css" rel="stylesheet">
+	<link href="/../css/main.css" media="screen" rel="stylesheet">
+
+	<link rel="stylesheet" media="print" href="css/print.css"/>
 	
 	<script type="text/javascript" src="/../js/jquery-3.3.1.min.js"></script>
 	<script defer src="/../js/fontawesome-all.js"></script>

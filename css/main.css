@@ -273,6 +273,18 @@ section .section-title {
 .spock {
 	color: #0066ff
 }
+/* 
+.requestInline {
+    display: none;
+} */
+
+.icon-bullet {
+    display: inline;
+}
+
+.bullet {
+    display: none;
+}
 
 .planYourVisit:hover {	
 	text-decoration: none
