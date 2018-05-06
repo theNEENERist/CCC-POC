@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -39,9 +40,11 @@
 		if($title != "CCC - Home" && $imgSrc != "")
 		{
 	?>
-		<div class="jumbotron" style="width:100%;overflow: hidden; height: 32rem; padding: 0; margin: 0;">
+	<div class="marginForHiding">
+		<div class="jumbotron hideMobile" style="width:100%;overflow: hidden; height: 32rem; padding: 0; margin: 0;">
 			<img src="<?php echo $imgSrc; ?>" alt="Jumbotron" style="height: 50rem;min-width: 100%;"/>
 		</div>
+	</div>
 	<?php
 		}
 		

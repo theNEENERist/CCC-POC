@@ -11,6 +11,7 @@
 						<li><a href="what_we_believe.php">Our Worldview</a></li>
 						<li><a href="what_to_expect.php">Plan Your Visit</a></li>
 						<li><a href="our_leaders.php">Our Leaders</a></li>
+					  	<li><a target="_blank" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">Calendar <i class="fas fa-external-link-alt"></i></a></li>
 						<!-- <li><a href="#">Contact Us</a></li> -->
 					</ul>
 				</div>
@@ -33,7 +34,7 @@
 					<h5>Find Us</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
-						<li><a href="directions.php"></i>Directions</a></li>
+						<li><a href="directions.php">Directions</a></li>
 					</ul>
 				</div>
 			</div>
@@ -56,7 +57,7 @@
 						</ul>
 					</div>
 				</div>
-				</hr>
+				<hr/>
 			</div>			
 		</div>
 	</section>
@@ -75,7 +76,7 @@
 					if(location.pathname.replace("/", "") === "index.php") {
 						fromTopPx = 800; // distance to trigger
 					}else {
-						fromTopPx = 512;
+						fromTopPx = 0; //512;
 					}
 					var scrolledFromtop = jQuery(window).scrollTop();
 					if(scrolledFromtop > fromTopPx){

@@ -81,9 +81,17 @@ body, html {
 	
 }
 
-@media (max-width: 767px){
+@media (max-width: 850px){
 	#navigate {
 		background-color: #0066ff;
+	}
+
+	.hideMobile {
+		display: none;
+	}
+
+	.marginForHiding {
+		margin-top: 150px;
 	}
 }
 

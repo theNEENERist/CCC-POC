@@ -17,6 +17,7 @@
 					  <a class="dropdown-item" href="our_story.php">Our Story</a>
 					  <a class="dropdown-item" href="what_to_expect.php">What to Expect</a>
 					  <a class="dropdown-item" href="what_we_believe.php">What We Believe</a>
+					  <a class="dropdown-item" target="_blank" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">Calendar <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a>
 					</div>
 				</li>
 				<li class="nav-item">
