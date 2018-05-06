@@ -52,8 +52,8 @@
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 float-left mt-4 text-center">
 						<ul class="list-unstyled list-inline social text-center">
-							<li class="list-inline-item" ><a href="https://www.facebook.com/calvarychristianchurchsellersburg/" target="_blank"><i style="font-size: 40px;" class="fab fa-facebook-f"></i></a></li>
-							<li class="list-inline-item" ><a href="https://www.youtube.com/channel/UC7z_cEyyFvQ0VMAKDm7y9_w" target="_blank"><i style="font-size: 40px;" class="fab fa-youtube"></i></a></li>
+							<li class="list-inline-item" ><a href="https://www.facebook.com/calvarychristianchurchsellersburg/" aria-label="Facebook" target="_blank"><i style="font-size: 40px;" class="fab fa-facebook-f"></i></a></li>
+							<li class="list-inline-item" ><a href="https://www.youtube.com/channel/UC7z_cEyyFvQ0VMAKDm7y9_w" aria-label="YouTube" target="_blank"><i style="font-size: 40px;" class="fab fa-youtube"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -76,7 +76,7 @@
 					if(location.pathname.replace("/", "") === "index.php") {
 						fromTopPx = 800; // distance to trigger
 					}else {
-						fromTopPx = 0; //512;
+						fromTopPx = 512;
 					}
 					var scrolledFromtop = jQuery(window).scrollTop();
 					if(scrolledFromtop > fromTopPx){
