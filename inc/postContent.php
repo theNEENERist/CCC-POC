@@ -1,22 +1,28 @@
 	<section id="footer" class="pt-4 mt-4">
 		<div class="container">
 			<div class="row text-center text-xs-center text-sm-left text-md-left">
-				<div class="col-xs-12 col-sm-6 col-md-4">
-					<h5>About Us</h5>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<h5>I'M NEW</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
 						<li><a href="about_us.php">About</a></li>
 						<!-- <li><a href="#">Service Times</a></li> -->
 						<li><a href="our_story.php">Our Story</a></li>
+						<li><a href="our_leaders.php">Our Leadership</a></li>
 						<li><a href="what_we_believe.php">Our Worldview</a></li>
 						<li><a href="what_to_expect.php">Plan Your Visit</a></li>
-						<li><a href="our_leaders.php">Our Leaders</a></li>
-					  	<li><a target="_blank" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">Calendar <i class="fas fa-external-link-alt"></i></a></li>
 						<!-- <li><a href="#">Contact Us</a></li> -->
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
-					<h5>Sermons</h5>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<h5>CONNECT</h5>
+					<hr>
+					<ul class="list-unstyled quick-links">
+						<li><a target="_blank" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">Calendar <i class="fas fa-external-link-alt"></i></a></li>						
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<h5>MEDIA</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
 						<li><a href="sermons_and_worship.php">Watch Past Sermons</a></li>
@@ -30,8 +36,8 @@
 						<li><a href="#"></i>Adult</a></li>
 					</ul>
 				</div> -->
-				<div class="col-xs-12 col-sm-6 col-md-4">
-					<h5>Find Us</h5>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<h5>FIND US</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
 						<li><a href="directions.php">Directions</a></li>

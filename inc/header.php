@@ -9,19 +9,26 @@
 			<ul class="navbar-nav ml-auto pr-4 navbar-right">
 					<li class="nav-item dropdown">
 					 <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					  About Us
+					  I'M NEW
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					  <a class="dropdown-item" href="about_us.php">About Us</a>
-					  <a class="dropdown-item" href="our_leaders.php">Our Leaders</a>
 					  <a class="dropdown-item" href="our_story.php">Our Story</a>
-					  <a class="dropdown-item" href="what_to_expect.php">What to Expect</a>
-					  <a class="dropdown-item" href="what_we_believe.php">What We Believe</a>
-					  <a class="dropdown-item" target="_blank" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">Calendar <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a>
+					  <a class="dropdown-item" href="our_leaders.php">Our Leadership</a>
+					  <a class="dropdown-item" href="what_we_believe.php">Our Worldview</a>
+					  <a class="dropdown-item" href="what_to_expect.php">Plan Your Visit</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="eventsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						CONNECT
+					</a>
+					<div class="dropdown-menu" aria-labelleddby="navbarDropdown">
+						<a class="dropdown-item" target="_blank" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">Calendar <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a>
 					</div>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="sermons_and_worship.php">Sermons</a>
+					<a class="nav-link" href="sermons_and_worship.php">MEDIA</a>
 				</li>
 				<!-- <li class="nav-item">
 					<a class="nav-link" href="classes.php">Classes</a>
@@ -36,7 +43,7 @@
 					</div>
 				</li> -->
 				<li class="nav-item">
-					<a class="nav-link" href="directions.php">Directions</a>
+					<a class="nav-link" href="directions.php">FIND US</a>
 				</li>
 			</ul>
 		</div>
