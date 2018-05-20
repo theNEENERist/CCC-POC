@@ -5,12 +5,12 @@
 					<h5>I'M NEW</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
-						<li><a href="about_us.php">About</a></li>
+						<li><a href="/about_us.php">About</a></li>
 						<!-- <li><a href="#">Service Times</a></li> -->
-						<li><a href="our_story.php">Our Story</a></li>
-						<li><a href="our_leaders.php">Our Leadership</a></li>
-						<li><a href="what_we_believe.php">Our Worldview</a></li>
-						<li><a href="what_to_expect.php">Plan Your Visit</a></li>
+						<li><a href="/our_story.php">Our Story</a></li>
+						<li><a href="/our_leaders.php">Our Leadership</a></li>
+						<li><a href="/what_we_believe.php">Our Worldview</a></li>
+						<li><a href="/what_to_expect.php">Plan Your Visit</a></li>
 						<!-- <li><a href="#">Contact Us</a></li> -->
 					</ul>
 				</div>
@@ -25,7 +25,8 @@
 					<h5>MEDIA</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
-						<li><a href="sermons_and_worship.php">Watch Past Sermons</a></li>
+						<li><a href="/Media/live_stream.php">Live Stream</a></li>
+						<li><a href="/Media/past_services.php">Past Services</a></li>
 					</ul>
 				</div>
 				<!-- <div class="col-xs-12 col-sm-6 col-md-3">
@@ -40,14 +41,14 @@
 					<h5>FIND US</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
-						<li><a href="directions.php">Directions</a></li>
+						<li><a href="/directions.php">Directions</a></li>
 					</ul>
 				</div>
 			</div>
 			<hr>
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-3 col-md-3 mt-2 mt-sm-2 text-center text-white float-left">
-					<a class="navbar-brand" href="/index.php"><img src="../img/calvary-header-logo.png" alt="Calvary Christian Church" /></a>
+					<a class="navbar-brand" href="/index.php"><img src="/../img/calvary-header-logo.png" alt="Calvary Christian Church" /></a>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-9 col-lg-9 mt-2 mt-sm-2 text-white float-left">
 					<div class="col-sm-12 col-md-12 col-lg-6 float-left text-center">
@@ -71,8 +72,8 @@
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"></script>
-		<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-		<script src="../js/bootstrap.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+		<script src="/../js/bootstrap.min.js"></script>
 		
 		<script type="text/javascript">
 			jQuery(window).scroll(function(){
@@ -87,15 +88,15 @@
 					var scrolledFromtop = jQuery(window).scrollTop();
 					if(scrolledFromtop > fromTopPx){
 						jQuery('#navigate').addClass('bg-blue');
-						$('#navImg').attr('src', '../img/calvary-header-logo.png');
+						$('#navImg').attr('src', '/../img/calvary-header-logo.png');
 					}else{
 						jQuery('#navigate').removeClass('bg-blue');
-						$('#navImg').attr('src', '../img/ccc-web-logo.png');					
+						$('#navImg').attr('src', '/../img/ccc-web-logo.png');					
 					}
 				}
 				else {
 					jQuery('#navigate').addClass('bg-blue');
-					$('#navImg').attr('src', '../img/calvary-header-logo.png');
+					$('#navImg').attr('src', '/../img/calvary-header-logo.png');
 				}
 			});
 		</script>

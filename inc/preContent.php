@@ -46,8 +46,7 @@
 		</div>
 	</div>
 	<?php
-		}
-		
+		}		
 		$dbhost = '127.0.0.1:3036';
 		$dbuser = 'root';
 		$dbpass = 'narnia3#';
