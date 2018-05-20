@@ -52,7 +52,6 @@
 			foreach ($searchResponse['items'] as $searchResult) {
 				$liveStreamInfo = 'https://www.youtube.com/embed/'.$searchResult['id']['videoId'].'?autoplay=0&origin=http://calvarychristianchurch.com';
 			}
-			echo $liveStreamInfo
 	?>
 		<div class="container">
 			<p>We are Live!</p>
