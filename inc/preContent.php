@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="/../../../../favicon.ico" rel="icon">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="Calvary Christian Church. 605 Norman Drive, Sellersburg, IN 47172. (812) 246-4383. info@calvarychristianchurch.com">
+  	<meta name="theme-color" content="#0066ff"/>
+   <meta name="author" content="">
+   <link href="/../../../../favicon.ico" rel="icon">
 
 	<title><?php echo isset($title) ? $title : "Calvary Christian Church" ?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/../css/bootstrap.min.css" rel="stylesheet">
+   <link href="/../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/../css/carousel.css" rel="stylesheet">
+   <link href="/../css/carousel.css" rel="stylesheet">
 	
 	<link href="/../css/main.css" media="screen" rel="stylesheet">
 

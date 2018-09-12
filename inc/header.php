@@ -8,7 +8,7 @@
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto pr-4 navbar-right">
 					<li class="nav-item dropdown">
-					 <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					 <a class="nav-link dropdown-toggle" href="#" class="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					  I'M NEW
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -28,7 +28,7 @@
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MEDIA</a>
+					<a class="nav-link dropdown-toggle" href="#" class="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MEDIA</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="/Media/live_stream.php">Live Stream</a>
 						<a class="dropdown-item" href="/Media/past_services.php">Past Services</a>
@@ -58,7 +58,7 @@
 		var isAboutPage = (aboutPages.indexOf(location.pathname.replace("/", "")) > -1);
 		
 		if(isAboutPage) {
-			$("#aboutDropdown").addClass("active");
+			$(".aboutDropdown").addClass("active");
 		}
 			$("a[href*='" + location.pathname.replace("/", "") + "']").addClass("active");
 			
