@@ -26,7 +26,11 @@
 			</div>
 		</a>
 
-		<a id="help" href="../content/bulletin/Bulletin.pdf" target="_blank">
+		<?php
+			$bulletin = "Bulletin " . date("mdY", strtotime("last Sunday")) . ".pdf";
+		?>
+
+		<a id="help" href="../content/bulletin/<?php echo $bulletin?>" target="_blank">
 			<div style="height: 50rem; overflow: hidden;">
 				<img src="../img/ccc-church-building-blue-filter.png" alt="Calvary Christian Church Building" style="height: 50rem; min-width: 100%;" />
 				<div id="thirdFeature">
