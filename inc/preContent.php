@@ -7,6 +7,9 @@
   	<meta name="theme-color" content="#0066ff"/>
    <meta name="author" content="">
    <link href="/../../../../favicon.ico" rel="icon">
+	<?php
+			date_default_timezone_set('America/New_York');
+	?>
 
 	<title><?php echo isset($title) ? $title : "Calvary Christian Church" ?></title>
 

@@ -42,6 +42,7 @@ body, html {
 
 .jumbotronInnerContent {
 	margin-top: 200px;
+	margin-bottom: 15px;
 }
 
 #welcomeText {
@@ -79,7 +80,29 @@ body, html {
 		font-size: 60px;
 	}
 	
+	.address {
+		width: 106%;
+		display: block;
+	}
+
+	#btnFindUs {
+		width: 106%;
+	}
 }
+
+@media (min-width: 480px) {
+	.address {
+		display: inline;
+	}
+}
+
+a.map-icon{
+	z-index:2;
+ }
+
+ i.map-icon{
+	z-index:1;
+ }
 
 @media (max-width: 850px){
 	#navigate {
