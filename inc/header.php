@@ -32,6 +32,7 @@
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="/Media/live_stream.php">Live Stream</a>
 						<a class="dropdown-item" href="/Media/past_services.php">Past Services</a>
+						<a class="dropdown-item" href="/Media/studies.php">Bible Studies</a>
 					</div>
 				</li>
 				<!-- <li class="nav-item">

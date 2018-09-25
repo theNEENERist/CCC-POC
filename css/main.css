@@ -1,3 +1,15 @@
+audio
+{
+	-moz-box-shadow: 2px 2px 4px 0px #0066ff;
+	-webkit-box-shadow:  2px 2px 4px 0px #0066ff;
+	box-shadow: 2px 2px 4px 0px #0066ff;
+	-moz-border-radius:7px 7px 7px 7px ;
+	-webkit-border-radius:7px 7px 7px 7px ;
+	border-radius:25px ;
+
+	width: 100%;
+}
+
 .video-container {
     float: none;
     clear: both;

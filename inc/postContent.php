@@ -27,6 +27,7 @@
 					<ul class="list-unstyled quick-links">
 						<li><a href="/Media/live_stream.php">Live Stream</a></li>
 						<li><a href="/Media/past_services.php">Past Services</a></li>
+						<li><a href="/Media/studies.php">Bible Studies</a></li>
 					</ul>
 				</div>
 				<!-- <div class="col-xs-12 col-sm-6 col-md-3">
