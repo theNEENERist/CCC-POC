@@ -12,6 +12,16 @@
    <hr class="mb-4">
 
    <div class="col-12 p-0">
+   <h4>Ephesians 2:1-10</h4>
+      <h6><strong>Taught By:</strong> Tom Bostic</h6>
+      <h6><strong>Date:</strong> 9/20/2018</h6>
+      
+      <audio class="mt-3" controls controlsList="nodownload" preload="metadata">
+         <source src="../content/audio/TomBostic04.mp3" type="audio/mp3">
+      </audio>
+
+      <hr class="mb-4">
+
       <h4>Ephesians 1:15-23</h4>
       <h6><strong>Taught By:</strong> Tom Bostic</h6>
       <h6><strong>Date:</strong> 9/20/2018</h6>
