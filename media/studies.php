@@ -25,7 +25,6 @@
 
       foreach ($json_data as $key1 => $value1) {
    ?>
-
       <h4><?php echo $json_data[$key1]["title"]; ?></h4>
       <h6><strong>Taught By:</strong> <?php echo $json_data[$key1]["teacher"]; ?></h6>
       <h6><strong>Date:</strong> <?php echo $json_data[$key1]["date"]; ?></h6>

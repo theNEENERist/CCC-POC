@@ -1,26 +1,32 @@
 [
    {
-      "title": "Ephesians Introduction and Overview",
+      "title": "Ephesians 2:1-10",
       "teacher": "Tom Bostic",
-      "date": "09/06/2018",
-      "file": "../content/audio/TomBostic04.mp3/"
-   },
-   {
-      "title": "Ephesians 1:1-14",
-      "teacher": "Tom Bostic",
-      "date": "09/13/2018",
-      "file": "../content/audio/TomBostic03.mp3"
+      "date": "09/27/2018",
+      "file": "../content/audio/TomBostic04.mp3"
    },
    {
       "title": "Ephesians 1:15-23",
       "teacher": "Tom Bostic",
       "date": "09/20/2018",
+      "file": "../content/audio/TomBostic03.mp3"
+   },
+   {
+      "title": "Ephesians 1:1-14",
+      "teacher": "Tom Bostic",
+      "date": "09/13/2018",
       "file": "../content/audio/TomBostic02.mp3"
    },
    {
-      "title": "Ephesians 2:1-10",
+      "title": "Ephesians Introduction and Overview",
       "teacher": "Tom Bostic",
-      "date": "09/27/2018",
-      "file": "../content/audio/Tom Bostic 01.mp3"
+      "date": "09/06/2018",
+      "file": "../content/audio/TomBostic01.mp3"
+   },
+   {
+      "title": "Ephesians 2:11-22",
+      "teacher": "Tom Bostic",
+      "date": "10/03/2018",
+      "file": "../content/audio/TomBostic05.mp3"
    }
 ]
