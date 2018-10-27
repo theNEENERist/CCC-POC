@@ -64,8 +64,8 @@ body, html {
 
 #thirdFeature {
 	position: absolute;
-	top: 2050px;
-	z-index: 10;
+	top: 40%;
+	z-index: 1000;
 	color: #fff;
 	text-align: center;
 	margin-right: auto;

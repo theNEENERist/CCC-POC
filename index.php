@@ -23,6 +23,11 @@
 				</p>
 			</div>
 		</div>
+
+		<div>
+			<img src="../img/Community-Thanksgiving.jpg" alt="Thanksgiving Service" style="width: 100%;" />
+		</div>
+
 		<a class="planYourVisit" href="what_to_expect.php">
 			<div style="overflow: hidden;">
 				<div class="bg-blue text-white" style="height: 40rem;">
@@ -42,11 +47,11 @@
 		?>
 
 		<a id="help" href="../content/bulletin/<?php echo $bulletin?>" target="_blank">
-			<div style="height: 50rem; overflow: hidden;">
-				<img src="../img/ccc-church-building-blue-filter.png" alt="Calvary Christian Church Building" style="height: 50rem; min-width: 100%;" />
+			<div style="height: 50rem; overflow: hidden; position: relative;">
 				<div id="thirdFeature">
 					<h1>WEEKLY BULLETIN</h1>
 				</div>
+				<img src="../img/ccc-church-building-blue-filter.png" alt="Calvary Christian Church Building" style="height: 50rem; min-width: 100%;" />
 			</div>
 		</a>
 	</main>
