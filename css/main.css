@@ -1,3 +1,39 @@
+/* Expandable Content */
+.active, .collapsible:hover {
+	background-color: #ccc;
+}
+
+.content {
+	padding: 15px 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+
+.content h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.content h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.content p {
+	font-size: 14px;
+}
+
+.transition-display {
+	display: block;
+	-webkit-transition: display 2000ms;
+	transition: display 2000ms;
+}
+
+.transition-hide {
+	display: none;
+}
+/* Expandable Content */
 audio
 {
 	-moz-box-shadow: 2px 2px 4px 0px #0066ff;
