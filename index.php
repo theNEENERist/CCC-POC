@@ -24,10 +24,6 @@
 			</div>
 		</div>
 
-		<div>
-			<img src="../img/Community-Thanksgiving.jpg" alt="Thanksgiving Service" style="width: 100%;" />
-		</div>
-
 		<a class="planYourVisit" href="what_to_expect.php">
 			<div style="overflow: hidden;">
 				<div class="bg-blue text-white" style="height: 40rem;">
