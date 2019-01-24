@@ -8,7 +8,7 @@
 
 <div class="container">
    <h1>Bible Studies</h1>
-   <p>Checkout the recordings of our Midweek Bible studies below.  You can join us in person on Thursday evenings at 6:30 through November 15th.</p>
+   <p>Checkout the recordings of our Midweek Bible studies below.  You can join us in person on Wednesday evenings at 6:30.</p>
    <hr class="mb-4">
    
    <div class="col-12 p-0">
@@ -24,21 +24,29 @@
       });
 
       foreach ($json_data as $key1 => $value1) {
-         $token = 'HKsNrmeddiLspD4qKdqOjHGhUWVQE3HVQqCo0sCk';
-         $url = 'https://bibles.org/v2/passages.js?q[]=' . strToLower(str_replace(" ", "+", $json_data[$key1]["title"])) . '&version=eng-KJVA';
-         
-         $ch = curl_init();
-         curl_setopt($ch, CURLOPT_URL, $url);
-         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-         curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
-         curl_setopt($ch, CURLOPT_USERPWD, "$token:X");
+        $token = 'HKsNrmeddiLspD4qKdqOjHGhUWVQE3HVQqCo0sCk';
+        $text = "";
 
-         $response = curl_exec($ch);
-         curl_close($ch);
+        foreach ($json_data[$key1]["scriptures"] as $key2 => $value1) {
+          $url = 'https://bibles.org/v2/passages.js?q[]=' . strToLower(str_replace(" ", "+", $json_data[$key1]["scriptures"][$key2])) . '&version=eng-NASB';
+          $ch = curl_init();
+          curl_setopt($ch, CURLOPT_URL, $url);
+          curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+          curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+          curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+          curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+          curl_setopt($ch, CURLOPT_USERPWD, "$token:X");
 
-         $json = json_decode($response);
+          $response = curl_exec($ch);
+          curl_close($ch);
+
+          $json = json_decode($response);
+
+          if(count($json->response->search->result->passages) > 0)  {
+            $text .= "<h1>" . (string) $json->response->search->result->passages[0]->display . "</h1>";
+            $text .= (string) $json->response->search->result->passages[0]->text . "<br/>";
+          }
+        }
    ?>
       <h4><?php echo $json_data[$key1]["title"]; ?></h4>
       <h6><strong>Taught By:</strong> <?php echo $json_data[$key1]["teacher"]; ?></h6>
@@ -49,12 +57,11 @@
       </audio>
       
       <?php
-         if(count($json->response->search->result->passages) > 0)  {
+         if($text <> "")  {
       ?>
          <button class="btn btn-secondary btn-sm collapsible mt-1" role="button">Scripture Text</button>
          <div class="content mt-2">
-            <h1><?php echo((string) $json->response->search->result->passages[0]->display); ?></h1>
-            <?php echo((string) $json->response->search->result->passages[0]->text); ?>
+            <?php echo $text; ?>
          </div>
       <?php
          }
