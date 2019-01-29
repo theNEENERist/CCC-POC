@@ -9,7 +9,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="<?php echo isset($title) ? $title : "Calvary Christian Church" ?>" />
 	<meta property="og:url" content="<?php echo 'https://www.' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
-	<meta property="og:image" content="https://www.calvarychristianchurch.com/img/FINAL LOGO.jpg" />
+	<meta property="og:image" content="https://www.calvarychristianchurch.com/img/finalLogo.jpg" />
 	<meta property="og:description" content="Calvary Christian Church is a nondenominational, Bible-believing church within the fellowship of the Restoration Movement." />
  	<link href="/../../../../favicon.ico" rel="icon">
 	
