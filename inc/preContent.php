@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <meta name="description" content="Calvary Christian Church. 605 Norman Drive, Sellersburg, IN 47172. (812) 246-4383. info@calvarychristianchurch.com">
+   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   	<meta name="description" content="Calvary Christian Church. 605 Norman Drive, Sellersburg, IN 47172. (812) 246-4383. info@calvarychristianchurch.com">
   	<meta name="theme-color" content="#0066ff"/>
-   <meta name="author" content="">
-   <link href="/../../../../favicon.ico" rel="icon">
+   	<meta name="author" content="">
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="<?php echo isset($title) ? $title : "Calvary Christian Church" ?>" />
 	<meta property="og:url" content="<?php echo 'https://www.' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
-	<meta property="og:image" content="https://www.calvarychristianchurch.com/img/ccc-cross-image.png" />
+	<meta property="og:image" content="https://www.calvarychristianchurch.com/img/FINAL LOGO.jpg" />
+	<meta property="og:description" content="Calvary Christian Church is a nondenominational, Bible-believing church within the fellowship of the Restoration Movement." />
+ 	<link href="/../../../../favicon.ico" rel="icon">
+	
 	<?php
 			date_default_timezone_set('America/New_York');
 	?>
