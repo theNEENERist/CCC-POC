@@ -7,6 +7,10 @@
   	<meta name="theme-color" content="#0066ff"/>
    <meta name="author" content="">
    <link href="/../../../../favicon.ico" rel="icon">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="<?php echo isset($title) ? $title : "Calvary Christian Church" ?>" />
+	<meta property="og:url" content="<?php echo 'https://www.' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
+	<meta property="og:image" content="https://www.calvarychristianchurch.com/img/ccc-cross-image.png" />
 	<?php
 			date_default_timezone_set('America/New_York');
 	?>
