@@ -25,26 +25,35 @@
 
       foreach ($json_data as $key1 => $value1) {
         $token = 'HKsNrmeddiLspD4qKdqOjHGhUWVQE3HVQqCo0sCk';
+        $passages = "";
         $text = "";
 
         foreach ($json_data[$key1]["scriptures"] as $key2 => $value1) {
-          $url = 'https://bibles.org/v2/passages.js?q[]=' . strToLower(str_replace(" ", "+", $json_data[$key1]["scriptures"][$key2])) . '&version=eng-NASB';
-          $ch = curl_init();
-          curl_setopt($ch, CURLOPT_URL, $url);
-          curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-          curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-          curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-          curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
-          curl_setopt($ch, CURLOPT_USERPWD, "$token:X");
+          $passages .= strToLower(str_replace(" ", "+", $json_data[$key1]["scriptures"][$key2]));
 
-          $response = curl_exec($ch);
-          curl_close($ch);
+          if( next( $json_data[$key1]["scriptures"] ) ) {
+            $passages .= ",";
+          }
+        }
 
-          $json = json_decode($response);
+        $url = 'https://bibles.org/v2/passages.js?q[]=' . $passages . '&version=eng-NASB';
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+        curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+        curl_setopt($ch, CURLOPT_USERPWD, "$token:X");
 
-          if(count($json->response->search->result->passages) > 0)  {
-            $text .= "<h1>" . (string) $json->response->search->result->passages[0]->display . "</h1>";
-            $text .= (string) $json->response->search->result->passages[0]->text . "<br/>";
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        $json = json_decode($response);
+
+        if($json && count($json->response->search->result->passages) > 0)  {
+          foreach($json->response->search->result->passages as $key => $passage) {
+            $text .= "<h1>" . (string) $passage->display . "</h1>";
+            $text .= (string) $passage->text . "<br/>";
           }
         }
    ?>
