@@ -7,14 +7,18 @@
 <?php include '../inc/preContent.php'?>
 
 <div class="container">
-   <h1>Bible Studies</h1>
-   <p>Checkout the recordings of our Midweek Bible studies below.  You can join us in person on Wednesday evenings at 6:30.</p>
-   <hr class="mb-4">
-   
-   <div class="col-12 p-0">
-   
-   <?php
+  <h1>Bible Studies</h1>
+  <p>Checkout the recordings of our Midweek Bible studies below.  You can join us in person on Wednesday evenings at 6:30.</p>
+  <hr class="mb-4">
+  
+  <div class="col-12 p-0">
+    <?php
+      $num_of_lessons = 5;
 
+      if (isset($_GET['lessons'])) {
+        $num_of_lessons =  $_GET['lessons']; 
+      }
+      
       $json = file_get_contents('../data/midweekStudies.json');
 
       $json_data = json_decode($json,true);
@@ -23,15 +27,15 @@
          return strtotime($a['date']) < strtotime($b['date']);
       });
 
-      foreach ($json_data as $key1 => $value1) {
+      for ($x = 0; $x < $num_of_lessons; $x++) {
         $token = 'HKsNrmeddiLspD4qKdqOjHGhUWVQE3HVQqCo0sCk';
         $passages = "";
         $text = "";
 
-        foreach ($json_data[$key1]["scriptures"] as $key2 => $value1) {
-          $passages .= strToLower(str_replace(" ", "+", $json_data[$key1]["scriptures"][$key2]));
+        foreach ($json_data[$x]["scriptures"] as $key2 => $value1) {
+          $passages .= strToLower(str_replace(" ", "+", $json_data[$x]["scriptures"][$key2]));
 
-          if( next( $json_data[$key1]["scriptures"] ) ) {
+          if( next( $json_data[$x]["scriptures"] ) ) {
             $passages .= ",";
           }
         }
@@ -57,12 +61,12 @@
           }
         }
    ?>
-      <h4><?php echo $json_data[$key1]["title"]; ?></h4>
-      <h6><strong>Taught By:</strong> <?php echo $json_data[$key1]["teacher"]; ?></h6>
-      <h6><strong>Date:</strong> <?php echo $json_data[$key1]["date"]; ?></h6>
+      <h4><?php echo $json_data[$x]["title"]; ?></h4>
+      <h6><strong>Taught By:</strong> <?php echo $json_data[$x]["teacher"]; ?></h6>
+      <h6><strong>Date:</strong> <?php echo $json_data[$x]["date"]; ?></h6>
       
       <audio class="mt-3" controls controlsList="nodownload" preload="metadata">
-         <source src="<?php echo $json_data[$key1]["file"]; ?>" type="audio/mp3">
+         <source src="<?php echo $json_data[$x]["file"]; ?>" type="audio/mp3">
       </audio>
       
       <?php
@@ -77,14 +81,25 @@
       ?>
 
       <?php
-         if ($key1 < count($json_data) - 1) {
-      ?>
-         <hr class="mb-4">
-      <?php
-         }
-      ?>
       
+        if ($x < count($json_data) - 1) {
+
+      ?>
+        <hr class="mb-4">
+      <?php          
+        }
+      ?>
+      <span></span>
    <?php
+      }
+      
+      if ($num_of_lessons < count($json_data)) {
+        ?>
+        
+          <div class="showMore col-3">
+            <button role="button" class="btn btn-secondary btn-sm" style="margin-left: -35px;" onclick="changeNumberPerPage()">Show More <i class="fas fa-arrow-down"></i></button>
+          </div>
+        <?php
       }
    ?>
    </div>
@@ -94,18 +109,27 @@
    var coll = document.getElementsByClassName("collapsible");
    var i;
 
-   for (i = 0; i < coll.length; i++) {
+    for (i = 0; i < coll.length; i++) {
       coll[i].addEventListener("click", function() {
-         this.classList.toggle("active");
-         var content = this.nextElementSibling;
-         if (content.classList.contains("transition-display")) {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.classList.contains("transition-display")) {
             content.classList.remove("transition-display")
             content.classList.add("transition-hide")
-         } else {
+          } else {
             content.classList.remove("transition-hide")
             content.classList.add("transition-display")
-         }
+          }
       });
-   }
+    }
+
+		function changeNumberPerPage() {
+      var numOfLessons = parseInt("<?php echo $num_of_lessons ?>") + 5
+
+      numOfLessons = numOfLessons <= parseInt("<?php echo count($json_data) ?>") ? numOfLessons : parseInt("<?php echo count($json_data) ?>")
+      
+			window.location.href = window.location.pathname+"?" + $.param({ lessons: numOfLessons })
+		}
 </script>
+
 <?php include '../inc/postContent.php'?>

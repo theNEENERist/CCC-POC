@@ -373,6 +373,11 @@ section .section-title {
 	color: #d3d3d3;
 }
 
+.showMore {
+	margin-right: auto;
+	margin-left: auto;
+}
+
 @media (max-width:767px){
 	#footer h5 {
     padding-left: 0;
