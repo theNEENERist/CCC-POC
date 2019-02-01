@@ -62,6 +62,7 @@
 						<ul class="list-unstyled list-inline social text-center">
 							<li class="list-inline-item" ><a href="https://www.facebook.com/calvarychristianchurchsellersburg/" aria-label="Facebook" target="_blank"><i style="font-size: 40px;" class="fab fa-facebook-f"></i></a></li>
 							<li class="list-inline-item" ><a href="https://www.youtube.com/channel/UC7z_cEyyFvQ0VMAKDm7y9_w" aria-label="YouTube" target="_blank"><i style="font-size: 40px;" class="fab fa-youtube"></i></a></li>
+							<li class="list-inline-item" ><a href="https://www.instagram.com/ccc_sellersburg/" aria-label="Instagram" target="_blank"><i style="font-size: 40px;" class="fab fa-instagram"></i></a></li>
 						</ul>
 					</div>
 				</div>
