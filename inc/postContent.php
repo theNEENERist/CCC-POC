@@ -67,7 +67,7 @@
 					</div>
 				</div>
 				<hr/>
-			</div>			
+			</div>
 		</div>
 	</section>
 		<!-- Bootstrap core JavaScript
