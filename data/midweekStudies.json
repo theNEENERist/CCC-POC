@@ -1,5 +1,30 @@
 [
    {
+      "title": "Baptism in the Book of Acts",
+      "teacher": "Kendall Faull",
+      "date": "03/20/2019",
+      "file": "../content/audio/Kendall032019.mp3",
+      "scriptures": [
+         "Matthew 28:19-20",
+         "Acts 2:38-41",
+         "Acts 2:47",
+         "Acts 8:12",
+         "Acts 8:35-36",
+         "Acts 22:8-10",
+         "Acts *:18",
+         "Acts 10:47-48",
+         "Ephesians: 4:4-6",
+         "Acts 16:14-15",
+         "Acts 16:32-34",
+         "Acts 18:8",
+         "Mark 16:16",
+         "Acts 19:1-5",
+         "Acts 22:16",
+         "Romans 6:3-8",
+         "Galatians 3:26-27"
+      ]
+   },
+   {
       "title": "How to Obey the Gospel?",
       "teacher": "Kendall Faull",
       "date": "03/13/2019",
@@ -110,49 +135,63 @@
       "teacher": "Tom Bostic",
       "date": "11/15/2018",
       "file": "../content/audio/TomBostic10.mp3",
-      "scriptures": ["Ephesians 6:9-6:24"]
+      "scriptures": [
+         "Ephesians 6:9-6:24"
+      ]
    },
    {
       "title": "Ephesians 5:21-6:9",
       "teacher": "Tom Bostic",
       "date": "11/08/2018",
       "file": "../content/audio/TomBostic09.mp3",
-      "scriptures": ["Ephesians 5:21-6:9"]
+      "scriptures": [
+         "Ephesians 5:21-6:9"
+      ]
    },
    {
       "title": "Ephesians 4:17-5:21",
       "teacher": "Tom Bostic",
       "date": "11/01/2018",
       "file": "../content/audio/TomBostic08.mp3",
-      "scriptures": ["Ephesians 4:17-5:21"]
+      "scriptures": [
+         "Ephesians 4:17-5:21"
+      ]
    },
    {
       "title": "Ephesians 4:1-16",
       "teacher": "Tom Bostic",
       "date": "10/25/2018",
       "file": "../content/audio/TomBostic07.mp3",
-      "scriptures": ["Ephesians 4:1-16"]
+      "scriptures": [
+         "Ephesians 4:1-16"
+      ]
    },
    {
       "title": "Ephesians 2:1-10",
       "teacher": "Tom Bostic",
       "date": "09/27/2018",
       "file": "../content/audio/TomBostic04.mp3",
-      "scriptures": ["Ephesians 2:1-10"]
+      "scriptures": [
+         "Ephesians 2:1-10"
+      ]
    },
    {
       "title": "Ephesians 1:15-23",
       "teacher": "Tom Bostic",
       "date": "09/20/2018",
       "file": "../content/audio/TomBostic03.mp3",
-      "scriptures": ["Ephesians 1:15-23"]
+      "scriptures": [
+         "Ephesians 1:15-23"
+      ]
    },
    {
       "title": "Ephesians 1:1-14",
       "teacher": "Tom Bostic",
       "date": "09/13/2018",
       "file": "../content/audio/TomBostic02.mp3",
-      "scriptures": ["Ephesians 1:1-14"]
+      "scriptures": [
+         "Ephesians 1:1-14"
+      ]
    },
    {
       "title": "Ephesians Introduction and Overview",
@@ -166,6 +205,8 @@
       "teacher": "Tom Bostic",
       "date": "10/03/2018",
       "file": "../content/audio/TomBostic05.mp3",
-      "scriptures": ["Ephesians 2:11-22"]
+      "scriptures": [
+         "Ephesians 2:11-22"
+      ]
    }
 ]
