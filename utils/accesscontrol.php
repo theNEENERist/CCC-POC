@@ -47,8 +47,13 @@ if(!isset($username)) {
   exit;
 }
 // $mysqli = dbConnect("ccc");
+// $dhhost = 'localhost:3306';
+// $dbuser = 'root';
+// $dbpass = DBPASS;
+// $dbname = 'ccc';
+// $mysqli = new mysqli('calvar.fatcowmysql.com:3306', 'calvar', 'narnia3#', 'ccc'); 
+// $mysqli = new mysqli('localhost:3306', 'root', 'narnia3#', 'ccc'); 
 
-$mysqli = new mysqli('calvar.fatcowmysql.com:3306', 'calvar', 'narnia3#', 'ccc'); 
     if (!$mysqli) { 
         die('Could not connect: ' . mysqli_error()); 
     } 

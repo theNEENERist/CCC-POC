@@ -1,15 +1,15 @@
 <?php
 include_once("../inc/constants.php");
 
-$dhhost = 'calvar.fatcowmysql.com:3306';
-$dbuser = 'calvar';
-$dbpass = DBPASS;
-$dbname = 'ccc';
-
-// $dhhost = 'localhost:3306';
-// $dbuser = 'root';
+// $dhhost = 'calvar.fatcowmysql.com:3306';
+// $dbuser = 'calvar';
 // $dbpass = DBPASS;
 // $dbname = 'ccc';
+
+$dhhost = 'localhost:3306';
+$dbuser = 'root';
+$dbpass = DBPASS;
+$dbname = 'ccc';
 
 function dbConnect($db='') {
     global $dbhost, $dbuser, $dbpass, $dbname, $dbport, $socket;
