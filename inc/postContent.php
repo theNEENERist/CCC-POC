@@ -88,7 +88,7 @@
 						fromTopPx = 512;
 					}
 					var scrolledFromtop = jQuery(window).scrollTop();
-					if(scrolledFromtop > fromTopPx){
+					if(scrolledFromtop > 0){
 						jQuery('#navigate').addClass('bg-blue');
 						$('#navImg').attr('src', '/../img/calvary-header-logo.png');
 					}else{

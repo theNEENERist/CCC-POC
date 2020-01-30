@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   	<meta name="description" content="Calvary Christian Church. 605 Norman Drive, Sellersburg, IN 47172. (812) 246-4383. info@calvarychristianchurch.com">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="Calvary Christian Church. 605 Norman Drive, Sellersburg, IN 47172. (812) 246-4383. info@calvarychristianchurch.com">
   	<meta name="theme-color" content="#0066ff"/>
-   	<meta name="author" content="">
+   <meta name="author" content="">
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="<?php echo isset($title) ? $title : "Calvary Christian Church" ?>" />
 	<meta property="og:url" content="<?php echo 'https://www.' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
@@ -14,7 +14,7 @@
  	<link href="/../img/favicon.ico" rel="icon">
 	
 	<?php
-			date_default_timezone_set('America/New_York');
+		date_default_timezone_set('America/New_York');
 	?>
 
 	<title><?php echo isset($title) ? $title : "Calvary Christian Church" ?></title>

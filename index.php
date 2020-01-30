@@ -2,8 +2,7 @@
 <?php include 'inc/preContent.php'?>
 
 	<main role="main" style="margin-bottom: -30px;">
-		<div class="jumbotron" style="width:100%;overflow: hidden; height: 50rem; padding: 0; margin: 0;">
-			<img src="../img/ccc-cross-image.png" alt="Jumbotron" style="height: 50rem;min-width: 100%;"/>
+		<div class="jumbotron parallax" style="width:100%;overflow: hidden; height: 50rem; padding: 0; margin: 0;">
 			<div style="position: absolute;top: 125px;right: 15%;left: 15%;z-index: 10;padding-top: 40px;padding-bottom: 20px;color: #fff;text-align: center;">
 				<h1 id="welcomeText">Welcome to Calvary Christian</h1>
 				<div class="jumbotronInnerContent">
@@ -13,32 +12,12 @@
 							<i title="Directions from my location" class="fas fa-map-marker-alt map-icon clickable" style="margin-bottom: -10px; cursor: pointer;"></i>
 						</a>
 					</div>
-					<!-- <div class="find-us"> -->
-						<a id="btnFindUs" class="btn btn-lg btn-primary col-xs-12 col-s-12 col-md-12 col-lg-5" style="height: 60px; line-height: 40px;" role="button" onclick="findUs()">FIND US</a>
-					<!-- </div> -->
+					<a id="btnFindUs" class="btn btn-lg btn-primary col-xs-12 col-s-12 col-md-12 col-lg-5" style="height: 60px; line-height: 40px;" role="button" onclick="findUs()">FIND US</a>
 				</div>
 				<p style="font-size: 22px; font-weight: 400;">
 					605 NORMAN DRIVE<br/>
 					<span style="font-weight: 600;">SUNDAYS @ 10:40 AM</span>
 				</p>
-			</div>
-		</div>
-
-		<div class="fall-festival p-5">
-			<h5>Sellersburg/Speed Churches Present</h5>
-			<h2 style="font-decoration: underline;"><strong> 2019 Fall Festival</strong></h2>
-			<h3>Oct. 19th // 10a-2p</h3>
-			<!-- <h3>Presented by Sellersburg/Speed Churches</h3> -->
-			<button type="button" class="btn btn-primary mt-4 more-info" data-toggle="modal" data-target=".fall-festival-modal">More Info!</button>
-		</div>
-		
-		<div class="modal fade fall-festival-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered modal-lg">
-				<div class="modal-content">
-					<div class="modal-body">
-						<img src="../img/FallFestival2019Graphic.jpg" alt="2019 Fall Festival" style="width: 100%;" />					
-					</div>
-				</div>
 			</div>
 		</div>
 

@@ -33,6 +33,22 @@
 .transition-hide {
 	display: none;
 }
+
+.parallax {
+	background-image: url("../img/ccc-cross-image.png") !important;
+
+	background-attachment: fixed !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+ }
+
+ @media only screen and (max-width: 480pxlo) {
+	.parallax {
+	  background-attachment: scroll;
+	}
+ }
+
 /* Expandable Content */
 audio
 {
@@ -243,6 +259,8 @@ body > div.container > h1 {
 
 .bg-blue {
 	background-color: #0066ff;
+
+	transition: background-color 1s;
 }
 
 .rounded-border {
