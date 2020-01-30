@@ -24,6 +24,24 @@
 			</div>
 		</div>
 
+		<div class="fall-festival p-5">
+			<h5>Sellersburg/Speed Churches Present</h5>
+			<h2 style="font-decoration: underline;"><strong> 2019 Fall Festival</strong></h2>
+			<h3>Oct. 19th // 10a-2p</h3>
+			<!-- <h3>Presented by Sellersburg/Speed Churches</h3> -->
+			<button type="button" class="btn btn-primary mt-4 more-info" data-toggle="modal" data-target=".fall-festival-modal">More Info!</button>
+		</div>
+		
+		<div class="modal fade fall-festival-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+				<div class="modal-content">
+					<div class="modal-body">
+						<img src="../img/FallFestival2019Graphic.jpg" alt="2019 Fall Festival" style="width: 100%;" />					
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<a class="planYourVisit" href="what_to_expect.php">
 			<div style="overflow: hidden;">
 				<div class="bg-blue text-white" style="height: 40rem;">

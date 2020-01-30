@@ -387,3 +387,14 @@ section .section-title {
 	}
 }
 /* footer */
+
+.fall-festival {
+	background: rgb(26,26,26);
+	color: #ffffff;
+	text-align: center;
+}
+
+.more-info {
+	background-color: #BD4A1E;
+	border-color: #BD4A1E;
+}
