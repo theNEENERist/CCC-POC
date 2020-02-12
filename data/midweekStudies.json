@@ -1,12 +1,41 @@
 [
-	{
+   {
+      "title": "Gods's Forgetfullness of Sin",
+      "teacher": "Kevin Beck",
+      "date": "01/15/2020",
+      "file": "../content/audio/Bible study 011520.mp3",
+      "scriptures": []
+   },
+   {
+      "title": "Is it Inconsitent to be Pro-Life and Pro-Capital Punishment",
+      "teacher": "Kevin Beck",
+      "date": "01/22/2020",
+      "file": "../content/audio/Bible study 012229.mp3",
+      "scriptures": []
+   },
+   {
+      "title": "On Being an Outward-Focused Church",
+      "teacher": "Kevin Beck",
+      "date": "01/29/2020",
+      "file": "../content/audio/Bible study 012920.mp3",
+      "scriptures": []
+   },
+   {
+      "title": "God's Instructions to Utterly Destroy Various Peoples, Including Women and Children",
+      "teacher": "Kevin Beck",
+      "date": "02/05/2020",
+      "file": "../content/audio/Bible study 020520.mp3",
+      "scriptures": []
+   },
+   {
       "title": "How to Influence People for Jesus Christ",
       "teacher": "Kendall Faull",
       "date": "04/10/2019",
       "file": "../content/audio/Kendall041019.mp3",
       "scriptures": [
          "Colossians 4:5",
-         "James 3:17"      ]
+         "James 3:17"
+      ]
    },
    {
       "title": "Baptism in the Book of Acts",
