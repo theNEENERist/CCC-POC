@@ -21,6 +21,54 @@
 			</div>
 		</div>
 
+		<div class="fall-festival p-5">
+			<h1>How we're handling the Coronovirus</h1>
+			<button type="button" class="btn btn-danger mt-4 more-info" data-toggle="modal" data-target=".coronovirus-modal">More Info!</button>
+		</div>
+
+		<div class="modal fade coronovirus-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Coronovirus Update</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>The leadership of Calvary Christian Church has decided to make significant changes to our Sunday
+						morning schedule until further notice. We will suspend Sunday School classes, and our focus for the
+						main service at 10:40 AM will be to provide a live internet stream of music and a message from
+						God's word, with the expectation that most will be staying home. We believe we can accomplish this
+						with a crew of ten or fewer people.</p>
+
+						<p>Those who are not at high risk of death with respect to COVID-19 who still wish to attend in person
+						will not be turned away. However, since volunteers working with children are excused from their
+						obligations during this period, children of all ages who come should expect to be kept in the main
+						service unless it is stated otherwise.</p>
+
+						<p>We strongly recommend that our members and friends who have a high amount of life experience or
+						a compromised immune system stay home.
+
+						<p>We also recommend that families acquire, if possible, some grape juice and saltine crackers so that
+						we may partake of the Lord's Supper “together” when the time comes in the service. Delivery of
+						communion items can also be made to your home if desired. Please contact Kevin for this to be
+						arranged.</p>
+
+						<p>The decisions about these changes were made with a good deal of discussion and deliberation. We
+						understand that everyone may not agree, but we ask you to respect the decision and support the
+						leadership as they try to determine what is best. We believe what we're doing allows those to attend
+						who really wish to, while helping to avoid the perception that we are defying public health officials'
+						efforts to contain the spread of COVID-19.</p>
+
+						<p>We look forward to the time when we can meet again regularly and under normal circumstances.
+						If you have any questions, please contact the church at <a href="tel:18122464383">812-246-4383</a> or send an email to
+						<a href="mailto:inquire@calvarychristianchurch.com">inquire@calvarychristianchurch.com</a>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<a class="planYourVisit" href="what_to_expect.php">
 			<div style="overflow: hidden;">
 				<div class="bg-blue text-white" style="height: 40rem;">
