@@ -21,6 +21,32 @@
 			</div>
 		</div>
 
+		<!-- <div>			 -->
+			<a data-toggle="modal" data-target=".vbs-modal"><img src="../img/FollywoodBannerColor.png" alt="VBS 2020" style="width: 100%; cursor: pointer;" /></a>
+		<!-- </div> -->
+
+		<div class="modal fade vbs-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">VBS 2020</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="../img/FollywoodBannerColorNoClick.png" alt="VBS 2020" style="width: 100%; margin-bottom: 10px;" />
+						<p><span style="font-size: 24px;">Calvary Christian Church Presents <strong><i>Follywood</i></strong>, VBS</span><br/>
+						<strong>When:</strong> July 19-24<br/>
+						<strong>Where:</strong> Complete Online Adventuress<br/>
+						<strong>Supplies:</strong> Pick up at Calvary Christian Church on July 19th after morning services.<br/>
+						<strong>What you will get:</strong> Crafts for every day and snacks for every day.<br/>
+						<strong>Culminating event:</strong> Sunday, July 26th from 10:40 AM to 12:OO pm</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="fall-festival p-5">
 			<h1>How we're handling the Coronovirus</h1>
 			<button type="button" class="btn btn-danger mt-4 more-info" data-toggle="modal" data-target=".coronovirus-modal">More Info!</button>
