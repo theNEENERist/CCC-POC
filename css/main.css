@@ -416,3 +416,167 @@ section .section-title {
 	background-color: #BD4A1E;
 	border-color: #BD4A1E;
 } */
+
+/*start animation code*/
+
+*{
+	font-family: "Quicksand", sans-serif;
+	color: #ddd;
+}
+*:active, *:focus{
+	outline: none;
+}
+
+html, body{
+	height: 100%;
+}
+body{
+	margin: 0 auto;
+	background: #333;
+}
+
+.secondary {
+  max-height: 400px;
+}
+
+.row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.scrollAnim{
+	height: 100%;
+	opacity: 0;
+	transition: 0.8s;
+	display: flex;
+	padding: 0 120px;
+}
+.pic{
+  background-image: url("https://calvarychristianchurch.com/img/ccc-cross-image.png");
+}
+
+.second-pic{
+  background-image: url("https://calvarychristianchurch.com/img/ccc-church-building-blue-filter.png");
+}
+.scrollAnim:nth-child(2){
+	background: #0066ff;
+}
+.scrollAnim:nth-child(4){
+	background: ##0066ff;
+}
+.scrollAnim .content{
+/* 	margin: auto; */
+  text-align: center;
+}
+.scrollAnim.anim{
+	opacity: 1;
+}
+h1, h2{
+	display: block;
+	color: #eee;
+	font-size: 4em;
+	font-weight: bold;
+	margin: 0;
+	line-height: 1.2em;
+	transition: all 0.8s;
+	padding-left: 0;
+	font-family: "Anton", sans-serif;
+}
+.anim h1, .anim h2{
+	transition-delay: 0.1s;
+}
+
+p{
+	font-size: 0.9em;
+	transition: all 1.2s;
+}
+.anim-top{
+	transform: translate(0,150px);
+}
+.anim-left{
+	transform: translate(-150px,0);
+}
+.anim-right{
+	transform: translate(150px,0);
+}
+.anim .anim-top{
+	transform: translate(0,0);
+}
+.anim .anim-left{
+	transform: translate(0,0);	
+}
+.anim .anim-right{
+	transform: translate(0,0);	
+}
+
+.steps{
+	width: 100%;
+	margin: auto;
+}
+
+button{
+	color: #333;
+	background-color: #eee;
+	border: none;
+	padding: 0.5em;
+	width: 9em;
+	margin: 0.2em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+button:hover{
+	background-color: #ddd;
+}
+
+.scroller{
+	position: fixed;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+.map-icon {
+  height: 32px;
+  color: #0066ff;
+}
+
+@keyframes fadeIn {
+	from{ 
+		opacity:  0; 
+	}
+	to{
+		opacity: 1;
+	}
+}
+@keyframes fadeInOut {
+	0%{ 
+		opacity:  0; 
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+.sub-heading {
+  font-size: 32px;
+}
+
+/*end animation code*/
