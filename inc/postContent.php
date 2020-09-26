@@ -58,12 +58,21 @@
 						(812) 246-4383<br>
 						<a href="mailto:info@calvarychristianchurch.com">info@calvarychristianchurch.com</a>
 					</div>
-					<div class="col-sm-12 col-md-12 col-lg-6 float-left mt-4 text-center">
-						<ul class="list-unstyled list-inline social text-center">
+					<div class="col-sm-12 col-md-12 col-lg-6 float-left text-center">
+						<ul class="list-unstyled list-inline social text-center m-0">
 							<li class="list-inline-item" ><a href="https://www.facebook.com/calvarychristianchurchsellersburg/" aria-label="Facebook" target="_blank"><i style="font-size: 40px;" class="fab fa-facebook-f"></i></a></li>
 							<li class="list-inline-item" ><a href="https://www.youtube.com/channel/UC7z_cEyyFvQ0VMAKDm7y9_w" aria-label="YouTube" target="_blank"><i style="font-size: 40px;" class="fab fa-youtube"></i></a></li>
 							<li class="list-inline-item" ><a href="https://www.instagram.com/ccc_sellersburg/" aria-label="Instagram" target="_blank"><i style="font-size: 40px;" class="fab fa-instagram"></i></a></li>
 						</ul>
+						<div><span style="font-size: 24px;"><a href="https://cccsellersburg.churchcenter.com" target="new" style="color: #007bff;">Church Center App</a></span></div>
+							<div class="uikit-y52hxi">
+								<a href="https://itunes.apple.com/us/app/my-church-center/id1357742931?mt=8&amp;ls=1&amp;ign-mpt=uo%3D4" class="uikit-1jl7zfp">
+									<img height="40" alt="Download on iOS App Store" src="../img/cc-apple-store.svg">
+								</a>
+								<a href="https://play.google.com/store/apps/details?id=com.ministrycentered.churchcenter" class="uikit-1jl7zfp">
+									<img height="40" alt="Download on Google Play" src="../img/cc-play-store.svg">
+								</a>
+							</div>
 					</div>
 				</div>
 				<hr/>
