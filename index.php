@@ -21,67 +21,36 @@
 
 				<div class="row secondary m-0 show-desktop">
 					<div class="scrollAnim col-2">
-						<!-- <div class="content col"> -->
-							<div class="fall-festival p-3">
-								<h3 class="anim-left">We are now using the Church Center app!</h3>
-								<button type="button" class="btn btn-danger mt-2 more-info anim-left" data-toggle="modal" data-target=".cc-modal">More Info!</button>
-							</div>
-						<!-- </div> -->
+						<div class="fall-festival p-3">
+							<h3 class="anim-left">We are now using the Church Center app!</h3>
+							<button type="button" class="btn btn-danger mt-2 more-info anim-left" data-toggle="modal" data-target=".cc-modal">More Info!</button>
+						</div>
 					</div>
 					<div class="scrollAnim col-2">
-						<!-- <div class="content col"> -->
-							<div class="fall-festival p-3">
-								<h3 class="anim-right">How we're handling the Coronovirus</h3>
-								<button type="button" class="btn btn-danger mt-2 more-info anim-right" data-toggle="modal" data-target=".coronovirus-modal">More Info!</button>
-							</div>
-						<!-- </div> -->
+						<div class="fall-festival p-3">
+							<h3 class="anim-right">How we're handling the Coronovirus</h3>
+							<button type="button" class="btn btn-danger mt-2 more-info anim-right" data-toggle="modal" data-target=".coronovirus-modal">More Info!</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- <div>			 -->
-			<!-- <a data-toggle="modal" data-target=".cc-modal"><img src="../img/FollywoodBannerColor.png" alt="VBS 2020" style="width: 100%; cursor: pointer;" /></a> -->
-		<!-- </div> -->
-
-		<!-- <div class="row secondary m-0">
-			<div class="scrollAnim col-2">
-				<div class="content col">
-					<div class="fall-festival p-3">
-						<h3>We are now using the Church Center app!</h3>
-						<button type="button" class="btn btn-danger mt-2 more-info" data-toggle="modal" data-target=".cc-modal">More Info!</button>
-					</div>
-				</div>
-			</div>
-			<div class="scrollAnim col-2">
-				<div class="content col">
-					<div class="fall-festival p-3">
-						<h3>How we're handling the Coronovirus</h3>
-						<button type="button" class="btn btn-danger mt-2 more-info" data-toggle="modal" data-target=".coronovirus-modal">More Info!</button>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
 		<div class="secondary m-0 show-mobile">
 			<div>
-				<!-- <div class="content col"> -->
-					<div class="fall-festival p-3">
-						<h3>We are now using the Church Center app!</h3>
-						<button type="button" class="btn btn-danger mt-2 more-info" data-toggle="modal" data-target=".cc-modal">More Info!</button>
-					</div>
-				<!-- </div> -->
+				<div class="fall-festival p-3">
+					<h3>We are now using the Church Center app!</h3>
+					<button type="button" class="btn btn-danger mt-2 more-info" data-toggle="modal" data-target=".cc-modal">More Info!</button>
+				</div>
 			</div>
 			
 			<hr style="margin: 0; padding: 0;">
 			
 			<div>
-				<!-- <div class="content col"> -->
-					<div class="fall-festival p-3">
-						<h3>How we're handling the Coronovirus</h3>
-						<button type="button" class="btn btn-danger mt-2 more-info" data-toggle="modal" data-target=".coronovirus-modal">More Info!</button>
-					</div>
-				<!-- </div> -->
+				<div class="fall-festival p-3">
+					<h3>How we're handling the Coronovirus</h3>
+					<button type="button" class="btn btn-danger mt-2 more-info" data-toggle="modal" data-target=".coronovirus-modal">More Info!</button>
+				</div>
 			</div>
 		</div>
 

@@ -431,14 +431,6 @@ section .section-title {
 
 /* ANIMATION STUFF */
 @media (min-width: 480px) {
-	*{
-		font-family: "Quicksand", sans-serif;
-		color: #ddd;
-	}
-	*:active, *:focus{
-		outline: none;
-	}
-
 	html, body{
 		height: 100%;
 	}
