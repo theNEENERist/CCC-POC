@@ -25,6 +25,12 @@
 					</a>
 					<div class="dropdown-menu" aria-labelleddby="navbarDropdown">
 						<a class="dropdown-item" target="_blank" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">Calendar <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a>
+						<hr>
+						<div class="dropdown-header"><strong>Church Center Forms</strong></div>
+						<a class="dropdown-item" target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/180793">Connect Card <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a>
+						<a class="dropdown-item" target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/181942">Prayer Requests <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a>
+						<a class="dropdown-item" target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/180171">Volunteer <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a>
+						
 					</div>
 				</li>
 				<li class="nav-item dropdown">
