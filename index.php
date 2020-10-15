@@ -91,34 +91,10 @@
 						</button>
 					</div>
 					<div class="modal-body">
-						<p>The leadership of Calvary Christian Church has decided to make significant changes to our Sunday
-						morning schedule until further notice. We will suspend Sunday School classes, and our focus for the
-						main service at 10:40 AM will be to provide a live internet stream of music and a message from
-						God's word, with the expectation that most will be staying home. We believe we can accomplish this
-						with a crew of ten or fewer people.</p>
-
-						<p>Those who are not at high risk of death with respect to COVID-19 who still wish to attend in person
-						will not be turned away. However, since volunteers working with children are excused from their
-						obligations during this period, children of all ages who come should expect to be kept in the main
-						service unless it is stated otherwise.</p>
-
-						<p>We strongly recommend that our members and friends who have a high amount of life experience or
-						a compromised immune system stay home.
-
-						<p>We also recommend that families acquire, if possible, some grape juice and saltine crackers so that
-						we may partake of the Lord's Supper “together” when the time comes in the service. Delivery of
-						communion items can also be made to your home if desired. Please contact Kevin for this to be
-						arranged.</p>
-
-						<p>The decisions about these changes were made with a good deal of discussion and deliberation. We
-						understand that everyone may not agree, but we ask you to respect the decision and support the
-						leadership as they try to determine what is best. We believe what we're doing allows those to attend
-						who really wish to, while helping to avoid the perception that we are defying public health officials'
-						efforts to contain the spread of COVID-19.</p>
-
-						<p>We look forward to the time when we can meet again regularly and under normal circumstances.
-						If you have any questions, please contact the church at <a href="tel:18122464383">812-246-4383</a> or send an email to
-						<a href="mailto:inquire@calvarychristianchurch.com">inquire@calvarychristianchurch.com</a>.</p>
+						<p>We have returned to holding Sunday services in our building, and you are invited to join us.  We have chairs in groups of two or more spaced out around our gathering room in order to comply with social distancing guidelines.  We strongly encourage the wearing of masks before and after the service and anytime while moving about.  The service begins at 10:40 AM.</p>
+						<p>We regret that we cannot yet provide official programs for our children during the worship service, due to the difficulty of maintaining distance in the rooms.  Children are welcome to stay with their parents in the main room, or parents may watch the live feed of the service with their children in our teen room.</p>
+						<p>We have restarted a limited Sunday School program that begins at 9:30 AM.  The K-5th grade students are together in one large room, the middle and high school students are together in our large teen room, and all the adults meet together in the multi-purpose room where services are held.  Infants and children up to preschool are welcome to remain with their parents.</p>
+						<p>We look forward to the day when things return to normal.  In the meantime, we hope you'll find that our modified arrangements are suitable to our worshiping the Lord together and learning from His word.</p>
 					</div>
 				</div>
 			</div>
