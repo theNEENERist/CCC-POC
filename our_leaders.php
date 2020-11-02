@@ -59,9 +59,9 @@
 		</div>
 		
 		<div class="col-lg-4 overflow-auto float-left text-center">
-			<img src="../img/our-leadership-marty.jpg" alt="Marty - Elder">
+			<img src="../img/our-leadership-james.jpg" alt="Marty - Elder">
 			<br/>
-			Marty Elder
+			James Hill
 		</div>
 		
 		<div class="col-lg-4 overflow-auto float-left text-center">
