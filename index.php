@@ -18,43 +18,8 @@
 					605 NORMAN DRIVE<br/>
 					<span style="font-weight: 600;">SUNDAYS @ 10:40 AM</span>
 				</p>
-
-				<div class="row secondary m-0 show-desktop">
-					<div class="scrollAnim col-2">
-						<div class="fall-festival p-3">
-							<h3 class="anim-left">We are now using the Church Center app!</h3>
-							<button type="button" class="btn btn-danger mt-2 more-info anim-left" data-toggle="modal" data-target=".cc-modal">More Info!</button>
-						</div>
-					</div>
-					<div class="scrollAnim col-2">
-						<div class="fall-festival p-3">
-							<h3 class="anim-right">How we're handling the Coronovirus</h3>
-							<button type="button" class="btn btn-danger mt-2 more-info anim-right" data-toggle="modal" data-target=".coronovirus-modal">More Info!</button>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
-
-		<div class="secondary m-0 show-mobile">
-			<div>
-				<div class="fall-festival p-3">
-					<h3>We are now using the Church Center app!</h3>
-					<button type="button" class="btn btn-danger mt-2 more-info" data-toggle="modal" data-target=".cc-modal">More Info!</button>
-				</div>
-			</div>
-			
-			<hr style="margin: 0; padding: 0;">
-			
-			<div>
-				<div class="fall-festival p-3">
-					<h3>How we're handling the Coronovirus</h3>
-					<button type="button" class="btn btn-danger mt-2 more-info" data-toggle="modal" data-target=".coronovirus-modal">More Info!</button>
-				</div>
-			</div>
-		</div>
-
-		
 
 		<div class="modal fade cc-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered modal-lg">
@@ -76,25 +41,6 @@
 									<img height="40" alt="Download on Google Play" src="../img/cc-play-store.svg">
 								</a>
 							</div>
-					</div>
-				</div>
-			</div>
-		</div>		
-
-		<div class="modal fade coronovirus-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered modal-lg">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title">Coronovirus Update</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<p>We have returned to holding Sunday services in our building, and you are invited to join us.  We have chairs in groups of two or more spaced out around our gathering room in order to comply with social distancing guidelines.  We strongly encourage the wearing of masks before and after the service and anytime while moving about.  The service begins at 10:40 AM.</p>
-						<p>We regret that we cannot yet provide official programs for our children during the worship service, due to the difficulty of maintaining distance in the rooms.  Children are welcome to stay with their parents in the main room, or parents may watch the live feed of the service with their children in our teen room.</p>
-						<p>We have restarted a limited Sunday School program that begins at 9:30 AM.  The K-5th grade students are together in one large room, the middle and high school students are together in our large teen room, and all the adults meet together in the multi-purpose room where services are held.  Infants and children up to preschool are welcome to remain with their parents.</p>
-						<p>We look forward to the day when things return to normal.  In the meantime, we hope you'll find that our modified arrangements are suitable to our worshiping the Lord together and learning from His word.</p>
 					</div>
 				</div>
 			</div>

@@ -436,7 +436,6 @@ section .section-title {
 	}
 	body{
 		margin: 0 auto;
-		background: #333;
 	}
 
 	.secondary {
@@ -457,7 +456,7 @@ section .section-title {
 	}
 
 	.col-2 {
-	width: 50%;
+	/* width: 50%; */
 	max-width: 100%;
 	}
 
