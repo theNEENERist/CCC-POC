@@ -15,8 +15,7 @@
 					<a id="btnFindUs" class="btn btn-lg btn-primary col-xs-12 col-s-12 col-md-12 col-lg-5" style="height: 60px; line-height: 40px;" role="button" onclick="findUs()">FIND US</a>
 				</div>
 				<p style="font-size: 22px; font-weight: 400; text-shadow: 1px 1px #808080;">
-					605 NORMAN DRIVE<br/>
-					<span style="font-weight: 600;">SUNDAYS @ 10:40 AM</span>
+					605 NORMAN DRIVE,  SELLERSBURG
 				</p>
 			</div>
 		</div>
@@ -46,15 +45,36 @@
 			</div>
 		</div>
 
-		<a class="planYourVisit" href="what_to_expect.php">
-			<div style="overflow: hidden;">
-				<div class="bg-blue text-white" style="height: 40rem;">
-					<div class="homeContent">
-						<p style="font-size: 90px;">PLAN YOUR<br/>VISIT</p>
-					</div>
-				</div>
+		<div class="row mt-5 mb-2" style="text-align: center; width: 100%;">
+			<div class="col">
+				<h1 style="font-size: 60px; font-weight: 700; color: dimgray">Sunday Services</h1>
 			</div>
-		</a>
+		</div>
+		<div class="row justify-content-center" style="width: 100%;">
+			<div class="col-lg-5" style="text-align: center;">
+				<p class="m-0" style="color: #3376BC; font-size: 18px;">Sunday School</p>
+				<h1 style="color: dimgray;">9:30 AM</h1>
+				<hr class="show-mobile" style="color: #3376BC;">
+			</div>
+			<div class="hide-mobile" style="display: none; border-right: 2px solid #3376BC; height:100px;"></div>
+
+			<div class="col-lg-5" style="text-align: center;">
+				<p class="m-0" style="color: #3376BC; font-size: 18px;">Worship Service</p>
+				<h1 style="color: dimgray;">10:40 AM</h1>
+			</div>
+		</div>
+
+		<div class="row mt-5 mb-2" style="text-align: center; width: 100%;">
+			<div class="col">
+				<h1 style="font-size: 60px; font-weight: 700; color: dimgray;">Wednesday Classes</h1>
+			</div>
+		</div>
+		<div class="row mb-5"  style="width: 100%;">
+			<div class="col" style="text-align: center;">
+				<p class="m-0" style="color: #3376BC; font-size: 18px;">Bible Study</p>
+				<h1 style="color: dimgray;">6:30 PM</h1>
+			</div>
+		</div>
 
 		<?php
 			if(date("w") == 0) {
@@ -64,14 +84,89 @@
 			}
 		?>
 
-		<a id="help" href="../content/bulletin/<?php echo $bulletin?>" target="_blank">
-			<div style="height: 50rem; overflow: hidden; position: relative;">
-				<div id="thirdFeature">
-					<h1>WEEKLY BULLETIN</h1>
+		<div class="container mt-5" style="text-align: center;">
+			<div class="card-deck mt-4">					
+				<div class="card bg-dark text-white m-1 zoom-hover" style="height: 25rem; overflow: hidden; position: relative; background-image: url(../img/ccc-church-building-blue-filter.png); background-size: 200%; background-position: left center;">
+					<a id="help" href="../content/bulletin/<?php echo $bulletin?>" target="_blank">
+					<div class="card-img-overlay">
+						<h1 class="justify-content-center text-white" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
+							Weekly Bulletin
+						</h1>
+					</div>
+					</a>
 				</div>
-				<img src="../img/ccc-church-building-blue-filter.png" alt="Calvary Christian Church Building" style="height: 50rem; min-width: 100%;" />
+				<div class="card bg-dark text-white m-1 zoom-hover" style="height: 25rem; overflow: hidden; position: relative; background-image: url(../img/ccc-church-building-blue-filter.png); background-size: 200%; background-position: right center;">
+					<a class="planYourVisit" href="what_to_expect.php">
+						<div class="card-img-overlay">
+							<h1 class="justify-content-center text-white" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
+								Plan Your Visit
+							</h1>
+						</div>
+					</a>
+				</div>
 			</div>
-		</a>
+		</div>
+
+		<div class="container mt-5" style="text-align: center;">
+			<h1 style="font-size: 60px; font-weight: 700;">Children's Worship Services</h1>
+			<div class="card-deck mt-4">
+				<div class="card bg-dark text-white m-1">
+					<img
+						src="../img/pexels-alicia-971435.jpg"
+						class="card-img"
+						alt="..."
+					/>
+					<div class="card-img-overlay">
+						<h1 class="justify-content-center" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
+							Nursery
+						</h1>
+					</div>
+				</div>
+				<div class="card bg-dark text-white m-1">
+					<img
+						src="../img/pexels-polina-tankilevitch-6743138.jpg"
+						class="card-img"
+						alt="..."
+					/>
+					<div class="card-img-overlay">
+						<h1 class="justify-content-center" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
+							Toddlers
+						</h1>
+					</div>
+				</div>
+				<div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+				<div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+				<div class="w-100 d-none d-lg-block d-xl-none"><!-- wrap every 4 on lg--></div>
+				<div class="w-100 d-none d-xl-block"><!-- wrap every 5 on xl--></div>
+				<div class="card bg-dark text-white m-1">
+					<img
+						src="../img/pexels-photo-3933033.jpeg"
+						class="card-img"
+						alt="..."
+					/>
+					<div class="card-img-overlay">
+						<h1 class="justify-content-center" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
+							Preschool
+						</h1>
+					</div>
+				</div>
+				<div class="card bg-dark text-white m-1">
+					<img
+						src="../img/pexels-photo-5628756.jpeg"
+						class="card-img"
+						alt="..."
+					/>
+					<div class="card-img-overlay">
+						<h1 class="justify-content-center" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
+							K-5th
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br/>
+
+		<!-- end -->
 	</main>
 
 	<script type="text/javascript">
