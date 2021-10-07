@@ -50,7 +50,7 @@
 				<h1 style="font-size: 60px; font-weight: 700; color: dimgray">Sunday Services</h1>
 			</div>
 		</div>
-		<div class="row justify-content-center" style="width: 100%;">
+		<div class="row justify-content-center m-0" style="width: 100%;">
 			<div class="col-lg-5" style="text-align: center;">
 				<p class="m-0" style="color: #3376BC; font-size: 18px;">Sunday School</p>
 				<h1 style="color: dimgray;">9:30 AM</h1>
@@ -69,7 +69,7 @@
 				<h1 style="font-size: 60px; font-weight: 700; color: dimgray;">Wednesday Classes</h1>
 			</div>
 		</div>
-		<div class="row mb-5"  style="width: 100%;">
+		<div class="row mb-5 mr-0 ml-0"  style="width: 100%;">
 			<div class="col" style="text-align: center;">
 				<p class="m-0" style="color: #3376BC; font-size: 18px;">Bible Study</p>
 				<h1 style="color: dimgray;">6:30 PM</h1>
