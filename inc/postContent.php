@@ -18,12 +18,13 @@
 					<h5>CONNECT</h5>
 					<hr>
 					<ul class="list-unstyled quick-links">
+						<li><a href="/events.php">Events</a></li>
 						<li><a target="_blank" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">Calendar <i class="fas fa-external-link-alt"></i></a></li>
-						<hr>
-						<div style="padding: 0; color: white; font-size: 16px;">CHURCH CENTER FORMS</div>
+						<!-- <hr> -->
+						<!-- <div style="padding: 0; color: white; font-size: 16px;">CHURCH CENTER FORMS</div>
 						<li><a target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/180793">Connect Card <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a></li>
 						<li><a target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/181942">Prayer Requests <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a></li>
-						<li><a target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/180171">Volunteer <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a></li>
+						<li><a target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/180171">Volunteer <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a></li> -->
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-3">
@@ -64,7 +65,7 @@
 						<a href="mailto:info@calvarychristianchurch.com">info@calvarychristianchurch.com</a>
 					</div>
 					<div class="col-sm-12 col-md-12 col-lg-6 float-left text-center">
-						<ul class="list-unstyled list-inline social text-center m-0">
+						<!-- <ul class="list-unstyled list-inline social text-center m-0">
 							<li class="list-inline-item" ><a href="https://www.facebook.com/calvarychristianchurchsellersburg/" aria-label="Facebook" target="_blank"><i style="font-size: 40px;" class="fab fa-facebook-f"></i></a></li>
 							<li class="list-inline-item" ><a href="https://www.youtube.com/channel/UC7z_cEyyFvQ0VMAKDm7y9_w" aria-label="YouTube" target="_blank"><i style="font-size: 40px;" class="fab fa-youtube"></i></a></li>
 							<li class="list-inline-item" ><a href="https://www.instagram.com/ccc_sellersburg/" aria-label="Instagram" target="_blank"><i style="font-size: 40px;" class="fab fa-instagram"></i></a></li>
@@ -78,9 +79,9 @@
 									<img height="40" alt="Download on Google Play" src="../img/cc-play-store.svg">
 								</a>
 							</div>
+						</div> -->
 					</div>
-				</div>
-				<hr/>
+				<!-- <hr/> -->
 			</div>
 		</div>
 	</section>

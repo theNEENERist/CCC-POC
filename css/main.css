@@ -245,8 +245,9 @@ body > div.container > h1 {
   }
   
   .zoom-hover:hover {
-		 transform: scale(1.05);
-	 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+		transform: scale(1.05);
+		box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
 }
 
 /* .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { */
