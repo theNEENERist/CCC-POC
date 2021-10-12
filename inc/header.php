@@ -26,7 +26,7 @@
 					<div class="dropdown-menu" aria-labelleddby="navbarDropdown">
 						<a class="dropdown-item" href="/events.php">Events</a>
 						<!-- <a class="dropdown-item" href="/youth_ministries.php">Youth</a> -->
-						<a class="dropdown-item" target="_blank" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">Building Calendar <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a>
+						<a class="dropdown-item" target="_blank" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">Building Calendar <i class="fas fa-external-link-alt" style="color: #3376BC"></i></a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">

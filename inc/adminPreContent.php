@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <meta name="description" content="Calvary Christian Church. 605 Norman Drive, Sellersburg, IN 47172. (812) 246-4383. info@calvarychristianchurch.com">
-  	<meta name="theme-color" content="#0066ff"/>
+  	<meta name="theme-color" content="#3376BC"/>
    <meta name="author" content="">
    <link href="/../../../../favicon.ico" rel="icon">
 	<?php

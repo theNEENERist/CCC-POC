@@ -30,8 +30,8 @@ body#LoginForm{ background-image:url("../../img/ccc-cross-image.webp"); backgrou
   text-decoration: underline;
 }
 .login-form  .btn.btn-primary {
-  background: #0066ff none repeat scroll 0 0;
-  border-color: #0066ff;
+  background: #3376BC none repeat scroll 0 0;
+  border-color: #3376BC;
   color: #ffffff;
   font-size: 14px;
   width: 100%;
@@ -48,7 +48,7 @@ body#LoginForm{ background-image:url("../../img/ccc-cross-image.webp"); backgrou
   margin: auto;
 }
 .login-form .btn.btn-primary.reset {
-  background: #0066ff none repeat scroll 0 0;
+  background: #3376BC none repeat scroll 0 0;
 }
 .back { text-align: left; margin-top:10px;}
 .back a {color: #444444; font-size: 13px;text-decoration: none;}

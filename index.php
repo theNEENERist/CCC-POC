@@ -8,7 +8,7 @@
 				<div class="jumbotronInnerContent">
 					<div class="address">
 						<input type="text" aria-label="Address" class="col-xs-12 col-s-12 col-md-12 col-lg-5" style="margin-left: -7px; height: 60px; line-height: 40px; padding: 8px 35px 8px 8px; margin-bottom: 10px;" id="address" name="address" placeholder="Enter Your Address">
-						<a onclick="locateDirections()" style="color: #0066ff; font-size: 35px; margin-left: -35px; z-index: 3; position: relative;" class="map-icon">
+						<a onclick="locateDirections()" style="color: #3376BC; font-size: 35px; margin-left: -35px; z-index: 3; position: relative;" class="map-icon">
 							<i title="Directions from my location" class="fas fa-map-marker-alt map-icon clickable" style="margin-bottom: -10px; cursor: pointer;"></i>
 						</a>
 					</div>

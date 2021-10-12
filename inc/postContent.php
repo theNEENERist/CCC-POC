@@ -22,9 +22,9 @@
 						<li><a target="_blank" href="https://calendar.google.com/calendar/embed?title=Calvary+Christian+Calendar&src=calvarychristiancalendar@gmail.com">Calendar <i class="fas fa-external-link-alt"></i></a></li>
 						<!-- <hr> -->
 						<!-- <div style="padding: 0; color: white; font-size: 16px;">CHURCH CENTER FORMS</div>
-						<li><a target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/180793">Connect Card <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a></li>
-						<li><a target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/181942">Prayer Requests <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a></li>
-						<li><a target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/180171">Volunteer <i class="fas fa-external-link-alt" style="color: #0066ff"></i></a></li> -->
+						<li><a target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/180793">Connect Card <i class="fas fa-external-link-alt" style="color: #3376BC"></i></a></li>
+						<li><a target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/181942">Prayer Requests <i class="fas fa-external-link-alt" style="color: #3376BC"></i></a></li>
+						<li><a target="_blank" href="https://cccsellersburg.churchcenter.com/people/forms/180171">Volunteer <i class="fas fa-external-link-alt" style="color: #3376BC"></i></a></li> -->
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-3">
