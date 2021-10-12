@@ -36,7 +36,7 @@
 		</div>
 		
 		<div class="col-sm-5 col-lg-2 overflow-auto mb-4 float-left">
-			<img src="../img/our-leadership-kevin.jpg" alt="Kevin - Minister" >
+			<img src="../img/our-leadership-kevin.webp" alt="Kevin - Minister" >
 		</div>
 		
 		<div class="col-sm-7 col-lg-10 overflow-auto mb-4 float-left">
@@ -59,19 +59,19 @@
 		</div>
 		
 		<div class="col-lg-4 overflow-auto float-left text-center">
-			<img src="../img/our-leadership-james.jpg" alt="Marty - Elder">
+			<img src="../img/our-leadership-james.webp" alt="Marty - Elder">
 			<br/>
 			James Hill
 		</div>
 		
 		<div class="col-lg-4 overflow-auto float-left text-center">
-			<img src="../img/our-leadership-gary-t.jpg" alt="Gary - Elder">
+			<img src="../img/our-leadership-gary-t.webp" alt="Gary - Elder">
 			<br/>
 			Gary Thieneman
 		</div>
 		
 		<div class="col-lg-4 overflow-auto float-left text-center">
-			<img src="../img/our-leadership-jack.jpg" alt="Jack - Elder">
+			<img src="../img/our-leadership-jack.webp" alt="Jack - Elder">
 			<br/>
 			Jack Warner
 		</div>
