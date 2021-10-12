@@ -55,7 +55,7 @@
 			<hr>
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-3 col-md-3 mt-2 mt-sm-2 text-center text-white float-left">
-					<a class="navbar-brand" href="/index.php"><img src="/../img/calvary-header-logo.png" alt="Calvary Christian Church" /></a>
+					<a class="navbar-brand" href="/index.php"><img src="/../img/calvary-header-logo.webp" alt="Calvary Christian Church" /></a>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-9 col-lg-9 mt-2 mt-sm-2 text-white float-left">
 					<div class="col-sm-12 col-md-12 col-lg-6 float-left text-center">
@@ -105,15 +105,15 @@
 					var scrolledFromtop = jQuery(window).scrollTop();
 					if(scrolledFromtop > 0){
 						jQuery('#navigate').addClass('bg-gray-blue');
-						$('#navImg').attr('src', '/../img/calvary-header-logo.png');
+						$('#navImg').attr('src', '/../img/calvary-header-logo.webp');
 					}else{
 						jQuery('#navigate').removeClass('bg-gray-blue');
-						$('#navImg').attr('src', '/../img/ccc-web-logo.png');					
+						$('#navImg').attr('src', '/../img/ccc-web-logo.webp');					
 					}
 				}
 				else {
 					jQuery('#navigate').addClass('bg-gray-blue');
-					$('#navImg').attr('src', '/../img/calvary-header-logo.png');
+					$('#navImg').attr('src', '/../img/calvary-header-logo.webp');
 				}
 			});
 		</script>

@@ -1,7 +1,7 @@
 <header>
 	 <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navigate">
 		<!--<a class="navbar-brand" href="/index.php">Calvary Christian Church</a>-->
-		<a class="navbar-brand" href="/"><img id="navImg" alt="Calvary Christian Chuch" src="../img/ccc-web-logo.png" /></a>
+		<a class="navbar-brand" href="/"><img id="navImg" alt="Calvary Christian Chuch" src="../img/ccc-web-logo.webp" /></a>
 		<button class="navbar-toggler" aria-expanded="false" aria-controls="navbarCollapse" aria-label="Toggle navigation" type="button" data-toggle="collapse" data-target="#navbarCollapse">
 			<span class="navbar-toggler-icon"></span>
 		</button>

@@ -24,7 +24,7 @@ if(!isset($username)) {
     <div class="container">
       <div class="login-form">
          <div class="main-div col-xs-12 col-s-12 col-md-12 col-lg-5">
-            <img style="background: #0066ff; width: 60%;" class="mb-3" alt="Calvary Christian Chuch" src="../../img/finalLogo.jpg" />
+            <img style="background: #0066ff; width: 60%;" class="mb-3" alt="Calvary Christian Chuch" src="../../img/finalLogo.webp" />
             <div class="panel">
                <h2>Admin Login</h2>
                <p>Please enter your email and password</p>
@@ -70,7 +70,7 @@ if (password_verify($password, $pwd) == 1) {
       <div class="container">
         <div class="login-form">
           <div class="main-div col-xs-12 col-s-12 col-md-12 col-lg-5">
-              <img style="background: #0066ff; width: 60%;" class="mb-3" alt="Calvary Christian Chuch" src="../../img/finalLogo.jpg" />
+              <img style="background: #0066ff; width: 60%;" class="mb-3" alt="Calvary Christian Chuch" src="../../img/finalLogo.webp" />
               <div class="panel">
                 <h2>Admin Login</h2>
                 <p>Please enter your email and password</p>

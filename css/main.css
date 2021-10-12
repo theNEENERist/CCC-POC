@@ -39,7 +39,7 @@
 }
 
 .parallax {
-	background-image: url("../img/ccc-cross-image.png") !important;
+	background-image: url("../img/ccc-cross-image.webp") !important;
 
 	background-attachment: fixed !important;
 	background-position: center !important;
@@ -496,11 +496,11 @@ section .section-title {
 		padding: 0 120px;
 	}
 	.pic{
-	background-image: url("https://calvarychristianchurch.com/img/ccc-cross-image.png");
+	background-image: url("https://calvarychristianchurch.com/img/ccc-cross-image.webp");
 	}
 
 	.second-pic{
-	background-image: url("https://calvarychristianchurch.com/img/ccc-church-building-blue-filter.png");
+	background-image: url("https://calvarychristianchurch.com/img/ccc-church-building-blue-filter.webp");
 	}
 	/* .scrollAnim:nth-child(2){
 		background: #0066ff;

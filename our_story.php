@@ -1,6 +1,6 @@
 <?php 
 	global $variable;
-	$imgSrc = "../img/ccc-cross-image.png";
+	$imgSrc = "../img/ccc-cross-image.webp";
 ?>
 
 <?php $title = "CCC - Our Story" ?>
@@ -27,7 +27,7 @@
 	<br/>
 	
 	<div class="col-lg-3 float-left mb-4">
-		<img src="../img/our_story.jpg" alt="Our Story">
+		<img src="../img/our_story.webp" alt="Our Story">
 	</div>
 	<br/>
 

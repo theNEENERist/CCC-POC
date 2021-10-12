@@ -1,6 +1,6 @@
 <?php 
 	global $variable;
-	$imgSrc = "../img/ccc-cross-image.png";
+	$imgSrc = "../img/ccc-cross-image.webp";
 ?>
 
 <?php $title = "CCC - What to Expect" ?>
