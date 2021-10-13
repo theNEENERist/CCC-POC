@@ -86,7 +86,7 @@
 
 		<div class="container mt-5" style="text-align: center;">
 			<div class="card-deck mt-4">					
-				<div class="card bg-dark text-white m-1 zoom-hover" style="height: 25rem; overflow: hidden; position: relative; background-image: url(../img/ccc-church-building-blue-filter.webp); background-size: 200%; background-position: left center;">
+				<div class="card bg-dark text-white m-1 zoom-hover" style="height: 25rem; overflow: hidden; position: relative; background-image: url(../img/ccc-church-building.webp); background-size: 200%; background-position: left center;">
 					<a id="help" href="../content/bulletin/<?php echo $bulletin?>" target="_blank">
 					<div class="card-img-overlay">
 						<h1 class="justify-content-center text-white" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
@@ -95,7 +95,7 @@
 					</div>
 					</a>
 				</div>
-				<div class="card bg-dark text-white m-1 zoom-hover" style="height: 25rem; overflow: hidden; position: relative; background-image: url(../img/ccc-church-building-blue-filter.webp); background-size: 200%; background-position: right center;">
+				<div class="card bg-dark text-white m-1 zoom-hover" style="height: 25rem; overflow: hidden; position: relative; background-image: url(../img/ccc-church-building.webp); background-size: 200%; background-position: right center;">
 					<a class="planYourVisit" href="what_to_expect.php">
 						<div class="card-img-overlay">
 							<h1 class="justify-content-center text-white" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
