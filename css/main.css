@@ -1,3 +1,72 @@
+.dropdown-menu {
+	background: #000000 !important;
+}
+
+.dropdown-item {
+		color: #ffffff;
+		padding-top: 3;
+		padding-bottom: 3;
+		margin-bottom: 0;
+		margin-top: 0;
+}
+
+.nav-link {
+	font-size: 28px !important;
+}
+
+.navbar-expand-md .navbar-toggler {
+	display: block;
+	max-width: 62.75px;
+	color: rgba(255, 255, 255, 1) !important;
+	border-color: rgba(255, 255, 255, 1) !important;
+}
+
+.navbar-toggler:hover {
+	background-color: #000000 !important;
+}
+
+.nav-toggle:hover {
+	background-color: gray !important;
+}
+
+.toggler-icon {
+	font-size: 42px;
+	margin-left: -5px;
+}
+
+.navbar-space-between {
+	flex-wrap: wrap !important;
+	justify-content: space-between !important;
+}
+
+#overlay-nav {
+		position: fixed;
+  visibility: hidden;
+		top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;	
+		z-index: 2000;
+		background: rgba(0,0,0,.99);
+		transition: all .8s cubic-bezier(.175,.885,.32,1.275);
+		transform: scale(0);
+		opacity: 0;
+		display: flex;
+}
+
+.visible {
+	visibility: visible !important;
+	transform: scale(1) !important;
+	opacity: 1 !important;
+}
+
+.nav-toggle {
+	background-color: #000000;
+	color: #ffffff;
+	cursor: pointer;
+	width: 60px;
+}
+
 /* Expandable Content */
 .collapsible:hover {
 	background-color: #ccc;
@@ -172,11 +241,7 @@ a.map-icon{
 	z-index:1;
  }
 
-@media (max-width: 850px){
-	#navigate {
-		background-color: #3376BC;
-	}
-
+@media (max-width: 850px) {
 	.hideMobile {
 		display: none;
 	}
@@ -262,13 +327,6 @@ body > div.container > h1 {
 	border-color: #3376BC;
 	background-color: #3376BC;
 	box-shadow: none;
-}
-
-@media (min-width: 979px) {
-	ul li.dropdown:hover > .dropdown-menu {
-		display: block;
-		margin-top: -1px;
-	}
 }
 
 .overflow-auto {

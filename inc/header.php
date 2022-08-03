@@ -1,12 +1,19 @@
 <header>
-	 <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navigate">
-		<!--<a class="navbar-brand" href="/index.php">Calvary Christian Church</a>-->
+	 <nav class="navbar navbar-space-between navbar-expand-md navbar-dark fixed-top" id="navigate-top">
 		<a class="navbar-brand" href="/"><img id="navImg" alt="Calvary Christian Chuch" src="../img/ccc-web-logo.webp" /></a>
-		<button class="navbar-toggler" aria-expanded="false" aria-controls="navbarCollapse" aria-label="Toggle navigation" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-			<span class="navbar-toggler-icon"></span>
+		<button class="navbar-toggler" aria-expanded="false" aria-controls="navbarCollapse" aria-label="Toggle navigation" type="button" onClick="toggleNav()">
+			<span class="toggler-icon"><i class="bi bi-list"></i></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="navbar-nav ml-auto pr-4 navbar-right">
+		
+	</nav>
+	<div class="h-100 w-100" id="overlay-nav">
+		<nav id="navigate" class="navbar text-center h-100 w-100" style="display: flex; justify-content: center; align-items: center; flex-direction: column">
+		<div style="position: absolute; top: 0; right: 0;">
+				<button onClick="toggleNav()" class="nav-toggle"><span><h2><i class="bi bi-x-square"></h2></i></span></button>
+		</div>
+		<a href="/"><img alt="Calvary Christian Chuch" src="../img/ccc-web-logo.webp" /></a>	
+		<div class="align-middle">
+			<ul class="navbar-nav ml-auto mt-4 navbar-right">
 					<li class="nav-item dropdown">
 					 <a class="nav-link dropdown-toggle" href="#" class="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					  I'M NEW
@@ -54,8 +61,8 @@
 				</li>
 			</ul>
 		</div>
-	</nav>
-	
+</nav>
+	</div>
 	<script type="text/javascript">
 		var aboutPages = ['about_us.php', 'our_leaders.php', 'our_story.php', 'what_to_expect.php', 'what_we_believe.php'];
 		var isAboutPage = (aboutPages.indexOf(location.pathname.replace("/", "")) > -1);
@@ -73,6 +80,10 @@
 		}
 			$("a[href*='" + location.pathname.replace("/", "") + "']").addClass("active");
 		
+		function toggleNav() {
+				var element = document.getElementById("overlay-nav");
+				element.classList.toggle("visible");
+		}
 	</script>
 	
 </header>

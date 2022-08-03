@@ -104,15 +104,15 @@
 					}
 					var scrolledFromtop = jQuery(window).scrollTop();
 					if(scrolledFromtop > 0){
-						jQuery('#navigate').addClass('bg-gray-blue');
+						jQuery('#navigate-top').addClass('bg-gray-blue');
 						$('#navImg').attr('src', '/../img/calvary-header-logo.webp');
 					}else{
-						jQuery('#navigate').removeClass('bg-gray-blue');
+						jQuery('#navigate-top').removeClass('bg-gray-blue');
 						$('#navImg').attr('src', '/../img/ccc-web-logo.webp');					
 					}
 				}
 				else {
-					jQuery('#navigate').addClass('bg-gray-blue');
+					jQuery('#navigate-top').addClass('bg-gray-blue');
 					$('#navImg').attr('src', '/../img/calvary-header-logo.webp');
 				}
 			});

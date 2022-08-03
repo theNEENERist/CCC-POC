@@ -11,7 +11,8 @@
 	<meta property="og:url" content="<?php echo 'https://www.' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
 	<meta property="og:image" content="https://www.calvarychristianchurch.com/img/finalLogo.webp" />
 	<meta property="og:description" content="Calvary Christian Church is a nondenominational, Bible-believing church within the fellowship of the Restoration Movement." />
- 	<link href="/../img/favicon.ico" rel="icon">
+ <link href="/../img/favicon.ico" rel="icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 	
 	<?php
 		date_default_timezone_set('America/New_York');
