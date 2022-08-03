@@ -59,7 +59,7 @@
 		
 		<div class="col-sm-7 col-lg-10 overflow-auto mb-4 float-left">
 			<strong>Rich Hoyer</strong>
-			<p>Senior Minister
+			<p><i>Senior Minister</i>
 			<br/>
 			Rich@calvarychristianchurch.com</p>
 			
