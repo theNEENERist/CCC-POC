@@ -21,7 +21,7 @@
 	</div>
 	
 	<div class="col overflow-auto mb-4">
-		Second, minister and staff: Minister Kevin Beck teaches relevant messages that center on the Word of God. The paid staff is made up of full-time ministry staff and part-time ministry and support staff. 
+		Second, minister and staff: Minister Rich Hoyer teaches relevant messages that center on the Word of God. The paid staff is made up of full-time ministry staff and part-time ministry and support staff. 
 	</div>
 	
 	<div class="col overflow-auto mb-4">
@@ -54,7 +54,7 @@
 		</div>
 		
 		<div class="col-sm-5 col-lg-2 overflow-auto mb-4 float-left">
-			<img src="../img/our-leadership-rich.webp" alt="Kevin - Minister" >
+			<img src="../img/our-leadership-rich.webp" alt="Rich - Minister" >
 		</div>
 		
 		<div class="col-sm-7 col-lg-10 overflow-auto mb-4 float-left">
@@ -64,8 +64,8 @@
 			Rich@calvarychristianchurch.com</p>
 			
 			<div class="overflow-auto">
-					Rich and his family began their ministry with Calvary Chrisitan Church in July of 2022. After graduating from the University of Louisville with a degree in Economics in 1998, he became a Christian and returned to school to earn a Master’s in Religion from Cincinnati Christian University in 2006 <br/>
-					He is the founder of the <a target="_blank" href="https://reveal-truth.com">Reveal Conference <i class="fas fa-external-link-alt" style="color: #3376BC"></i></a> in Louisville, KY—an organization that seeks to educate people about the evidence for the truth of Christianity. Before the Lord led Rich to us, he served as a minister of the gospel at Lyndon Christian Church in Louisville, KY for over 14 years. You can find his writing at <a target="_blank" href="https://www.illuminatingchristianity.com">IlluminatingChristianity.com <i class="fas fa-external-link-alt" style="color: #3376BC"></i></a>.
+					Rich and his family began their ministry with Calvary Chrisitan Church in July of 2022. After graduating from the University of Louisville with a degree in Economics in 1998, he became a Christian and returned to school to earn a Master’s in Religion from Cincinnati Christian University in 2006. <br/><br/>
+					He is the founder of the <a target="_blank" href="https://reveal-truth.com">Reveal Conference <i class="fas fa-external-link-alt" style="font-size: 12px;"></i></a> in Louisville, KY—an organization that seeks to educate people about the evidence for the truth of Christianity. Before the Lord led Rich to us, he served as a minister of the gospel at Lyndon Christian Church in Louisville, KY for over 14 years. You can find his writing at <a target="_blank" href="https://www.illuminatingchristianity.com">IlluminatingChristianity.com <i class="fas fa-external-link-alt" style="font-size: 12px;"></i></a>.
 			</div>
 		</div>
 	</div>
