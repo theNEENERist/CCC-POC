@@ -64,7 +64,7 @@
 			</div>
 		</div>
 
-		<div class="row mt-5 mb-2" style="text-align: center; width: 100%;">
+		<div class="row mt-5 mb-2 ml-0 mr-0" style="text-align: center; width: 100%;">
 			<div class="col">
 				<h1 style="font-size: 60px; font-weight: 700; color: dimgray;">Wednesday Classes</h1>
 			</div>
@@ -73,6 +73,14 @@
 			<div class="col" style="text-align: center;">
 				<p class="m-0" style="color: #3376BC; font-size: 18px;">Bible Study</p>
 				<h1 style="color: dimgray;">6:30 PM</h1>
+			</div>
+		</div>
+		<div class="row mt-5 mb-2 ml-0 mr-0" style="text-align: center; width: 100%;">
+			<div class="w-100 d-flex justify-content-center">
+					<div class="embed-responsive embed-responsive-16by9 col-lg-7 col-xs-11 col-11">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/dDAp61SlAZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
 			</div>
 		</div>
 
