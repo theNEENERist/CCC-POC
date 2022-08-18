@@ -107,65 +107,70 @@
 			</div>
 		</div>
 
+		<?php
+	  $url = 'https://api.planningcenteronline.com/groups/v2/group_types/266777/groups';
+	  $ch = curl_init();
+	  curl_setopt($ch, CURLOPT_URL, $url);
+	  curl_setopt($ch, CURLOPT_USERPWD, "695585a2192848e037da7e6e45946f71fb036ded0d44550183e2debeff60d976:991a1e9365d87eb1ee3de75ce0756c2defa308205b20757778fafef0c2873dfe");
+	  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+	  $response = curl_exec($ch);
+	  curl_close($ch);
+
+	  $json = json_decode($response);
+  ?>
+
 		<div class="container mt-5" style="text-align: center;">
-			<h1 style="font-size: 60px; font-weight: 700;">Children's Worship Services</h1>
+			<h1 style="font-size: 60px; font-weight: 700;">Small Groups</h1>
 			<div class="card-deck mt-4">
-				<div class="card bg-dark text-white m-1">
-					<img
-						src="../img/pexels-alicia-971435.webp"
-						class="card-img"
-						alt="..."
-					/>
-					<div class="card-img-overlay">
-						<h1 class="justify-content-center" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
-							Nursery
-						</h1>
+			 <?php
+				 $index = 1;
+		   foreach($json->data as $key => $data) {
+			   $group = $data;
+
+						if($group->attributes->public_church_center_web_url) {
+			 ?>
+				<a href="<?php echo $group->attributes->public_church_center_web_url ?>" style="color: white;">
+				<?php
+					}
+					?>
+				 <div class="card bg-dark text-white m-1">
+						<img
+						 src="<?php echo $group->attributes->header_image->original; ?>"
+							class="card-img"
+							alt="header image"
+							style="height: 300px; object-fit: cover;"
+						/>
+						<div class="card-img-overlay">
+						 <h1 class="justify-content-center" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
+						  <?php echo $group->attributes->name; ?>
+						 </h1>
 					</div>
+					<?php
+      if($group->attributes->public_church_center_web_url) {
+					?>
+					 </a>
+					<?php
+						}
+					?>
 				</div>
-				<div class="card bg-dark text-white m-1">
-					<img
-						src="../img/pexels-polina-tankilevitch-6743138.webp"
-						class="card-img"
-						alt="..."
-					/>
-					<div class="card-img-overlay">
-						<h1 class="justify-content-center" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
-							Toddlers
-						</h1>
-					</div>
-				</div>
-				<div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
-				<div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
-				<div class="w-100 d-none d-lg-block d-xl-none"><!-- wrap every 4 on lg--></div>
-				<div class="w-100 d-none d-xl-block"><!-- wrap every 5 on xl--></div>
-				<div class="card bg-dark text-white m-1">
-					<img
-						src="../img/pexels-photo-3933033.webp"
-						class="card-img"
-						alt="..."
-					/>
-					<div class="card-img-overlay">
-						<h1 class="justify-content-center" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
-							Preschool
-						</h1>
-					</div>
-				</div>
-				<div class="card bg-dark text-white m-1">
-					<img
-						src="../img/pexels-photo-5628756.webp"
-						class="card-img"
-						alt="..."
-					/>
-					<div class="card-img-overlay">
-						<h1 class="justify-content-center" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
-							K-5th
-						</h1>
-					</div>
-				</div>
-			</div>
+			 <?php
+				  if ($index % 2 == 0) {
+							?>
+       <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+				   <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+				   <div class="w-100 d-none d-lg-block d-xl-none"><!-- wrap every 4 on lg--></div>
+				   <div class="w-100 d-none d-xl-block"><!-- wrap every 5 on xl--></div>
+
+				<?php
+
+						}
+				  $index++;
+					}
+			 ?>
+		 </div>
 		</div>
 		<br/>
-
 		<!-- end -->
 	</main>
 
