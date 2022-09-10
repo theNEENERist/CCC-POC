@@ -142,17 +142,19 @@
 				<?php
 					}
 					?>
-				 <div class="card bg-dark text-white m-1">
-						<img
-						 src="<?php echo $group->attributes->header_image->original; ?>"
-							class="card-img"
-							alt="header image"
-							style="height: 300px; object-fit: cover;"
-						/>
-						<div class="card-img-overlay">
-						 <h1 class="justify-content-center" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
-						  <?php echo $group->attributes->name; ?>
-						 </h1>
+					<div class="scrollAnim">
+						<div class="card bg-dark text-white m-1 rounded-circle">
+							<img
+								src="<?php echo $group->attributes->header_image->original; ?>"
+								class="card-img rounded-circle"
+								alt="header image"
+								style="height: 300px; object-fit: cover;"
+							/>
+							<div class="card-img-overlay">
+								<h1 class="justify-content-center" style="font-size: 60px; background-color: rgb(105,105,105,.6); text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);">
+									<?php echo $group->attributes->name; ?>
+								</h1>
+						</div>
 					</div>
 					<?php
       if($group->attributes->public_church_center_web_url) {
@@ -163,7 +165,7 @@
 					?>
 				</div>
 			 <?php
-				  if ($index % 2 == 0) {
+				  if ($index % 3 == 0) {
 							?>
        <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
 				   <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
