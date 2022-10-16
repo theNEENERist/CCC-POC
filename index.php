@@ -78,7 +78,7 @@
 		<div class="row mt-5 mb-2 ml-0 mr-0" style="text-align: center; width: 100%;">
 			<div class="w-100 d-flex justify-content-center">
 					<div class="embed-responsive embed-responsive-16by9 col-lg-7 col-xs-11 col-11">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/dDAp61SlAZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/86RaFznTnkE?modestbranding=1&color=white" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
