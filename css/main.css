@@ -1,3 +1,30 @@
+:root {
+  --background-color-dark: #1b1b1b;
+  --text-color-light: #fff;
+  --accent-color: #EE7E5C;
+}
+
+body {
+  background-color: var(--background-color-dark);
+  height: 100vh;
+  transition: all 0.4s ease;
+}
+
+body .subtitle,
+body .title,
+body h1,
+.container {
+  color: var(--text-color-light);
+}
+
+.accent-text {
+  color: var(--accent-color);
+}
+
+body .subtitle strong {
+  color: var(--accent-color)
+}
+
 .dropdown-menu {
 	background: #000000 !important;
 }
@@ -275,6 +302,14 @@ hr:before {
 body > div.container > h1 {
 	margin-top: 25px;
 }
+
+/* .myanswersDirectorCountdownWrap {
+	border:  0 !important;
+}
+
+.myanswersDirectorCountdownTopLine {
+	background: #3376BC !important;
+} */
 
 .calendar {
 	position: relative; padding-bottom: 75%; height: 0; overflow: hidden;

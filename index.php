@@ -47,32 +47,32 @@
 
 		<div class="row mt-5 mb-2" style="text-align: center; width: 100%;">
 			<div class="col">
-				<h1 style="font-size: 60px; font-weight: 700; color: dimgray">Sunday Services</h1>
+				<h1 style="font-size: 60px; font-weight: 700">Sunday Services</h1>
 			</div>
 		</div>
 		<div class="row justify-content-center m-0" style="width: 100%;">
 			<div class="col-lg-5" style="text-align: center;">
-				<p class="m-0" style="color: #3376BC; font-size: 18px;">Sunday School</p>
-				<h1 style="color: dimgray;">9:30 AM</h1>
+				<p class="m-0 accent-text" style="font-size: 18px;">Sunday School</p>
+				<h1>9:30 AM</h1>
 				<hr class="show-mobile" style="color: #3376BC;">
 			</div>
 			<div class="hide-mobile" style="display: none; border-right: 2px solid #3376BC; height:100px;"></div>
 
 			<div class="col-lg-5" style="text-align: center;">
-				<p class="m-0" style="color: #3376BC; font-size: 18px;">Worship Service</p>
-				<h1 style="color: dimgray;">10:40 AM</h1>
+				<p class="m-0 accent-text" style="font-size: 18px;">Worship Service</p>
+				<h1">10:40 AM</h1>
 			</div>
 		</div>
 
 		<div class="row mt-5 mb-2 ml-0 mr-0" style="text-align: center; width: 100%;">
 			<div class="col">
-				<h1 style="font-size: 60px; font-weight: 700; color: dimgray;">Wednesday Classes</h1>
+				<h1 style="font-size: 60px; font-weight: 700;">Wednesday Classes</h1>
 			</div>
 		</div>
 		<div class="row mb-5 mr-0 ml-0"  style="width: 100%;">
 			<div class="col" style="text-align: center;">
-				<p class="m-0" style="color: #3376BC; font-size: 18px;">Bible Study</p>
-				<h1 style="color: dimgray;">6:30 PM</h1>
+				<p class="m-0 accent-text" style="font-size: 18px;">Bible Study</p>
+				<h1>6:30 PM</h1>
 			</div>
 		</div>
 		<div class="row mt-5 mb-2 ml-0 mr-0" style="text-align: center; width: 100%;">

@@ -7,7 +7,7 @@
 <?php include 'inc/preContent.php'?>
 
 <?php
-	$url = 'https://api.planningcenteronline.com/resources/v2/event_instances?order=starts_at&include=event&filter=future';
+	$url = 'https://api.planningcenteronline.com/calendar/v2/event_instances?include=event&filter=future';
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $url);
 	curl_setopt($ch, CURLOPT_USERPWD, "695585a2192848e037da7e6e45946f71fb036ded0d44550183e2debeff60d976:991a1e9365d87eb1ee3de75ce0756c2defa308205b20757778fafef0c2873dfe");
@@ -41,7 +41,6 @@
 				$endTime = strtotime($data->attributes->ends_at.' UTC');
 				$endTimeInLocal = date("g:i a", $endTime);
 	?>
-		
 		<div class="d-none d-md-flex row mb-3">
 			<div class="col-4">
 				<img src="<?php echo $included->attributes->image_url; ?>" style="width: 100%;">
@@ -51,7 +50,12 @@
 				<h2 style="color: #3376BC"><?php echo $included->attributes->name ?></h2>
 				<h5><b><?php echo $eventDate ?></b></h5>
 				<h6><i><?php echo $startTimeInLocal ?> - <?php echo $endTimeInLocal ?></i></h6>
-				<p><?php echo $included->attributes->details ?></p>
+				<p><?php echo $included->attributes->summary ?></p>
+				<div class="card bg-dark" style="font-size: 14px">
+					<div class="card-body">
+						<?php echo $included->attributes->description ?>
+					</div>
+				</div>
 			</div>
 		</div>
 		
@@ -64,7 +68,12 @@
 				<h2 style="color: #3376BC"><?php echo $included->attributes->name ?></h2>
 				<h5><b><?php echo $eventDate ?></b></h5>
 				<h6 class="mb-2" style="font-size: 16px;"><i><?php echo $startTimeInLocal ?> - <?php echo $endTimeInLocal ?></i></h6>
-				<p><?php echo $included->attributes->details ?></p>
+				<p><?php echo $included->attributes->summary ?></p>
+				<div class="card bg-dark" style="font-size: 14px;">
+					<div class="card-body">
+						<?php echo $included->attributes->description ?>
+					</div>
+				</div>
 			</div>
 		</div>
 

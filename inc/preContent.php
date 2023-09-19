@@ -12,7 +12,7 @@
 	<meta property="og:image" content="https://www.calvarychristianchurch.com/img/finalLogo.webp" />
 	<meta property="og:description" content="Calvary Christian Church is a nondenominational, Bible-believing church within the fellowship of the Restoration Movement." />
  <link href="/../img/favicon.ico" rel="icon">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<script src="https://kit.fontawesome.com/90beb3a0ca.js" crossorigin="anonymous"></script>
 	
 	<?php
 		date_default_timezone_set('America/New_York');
@@ -31,7 +31,8 @@
 	<!-- <link rel="stylesheet" media="print" href="css/print.css"/> -->
 	
 	<script type="text/javascript" src="/../js/jquery-3.3.1.min.js"></script>
-	<script defer src="/../js/fontawesome-all.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118367769-1"></script>
