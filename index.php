@@ -44,7 +44,31 @@
 				</div>
 			</div>
 		</div>
-
+    <div class="row justify-content-center m-0 mt-3" style="text-align: center; width: 100%;">
+      <h1 style="font-size: 60px; font-weight: 700;">Vacation Bible School</h1>
+    </div>
+    <div class="row justify-content-center m-0 mt-3" style="text-align: center; width: 100%;">
+      <div style="max-width:500px;max-height:250px;"><script type="text/javascript" src="https://myanswers.com/vbs/jscountdown/50996/"></script></div>
+    </div>
+    <div class="row justify-content-center m-0 mt-3" style="text-align: center; width: 100%;">
+      <p style="font-size: 20px; font-weight: 400; color: #ced4da;">
+        Welcome all explorers!  Our "The Great Jungle Journey" VBS is happening June 9th-13th of 2024.
+      </p>
+    </div>
+    <div class="row justify-content-center m-0 mt-3" style="text-align: center; width: 100%;">
+      <p style="font-size: 20px; font-weight: 400; color: #ced4da;">
+        Please register below if you are able to attend!
+      </p>
+    </div>
+    <div class="row justify-content-center m-0 mt-3" style="text-align: center; width: 100%;">
+      <div class="col-xs-5 col-s-5 col-md-5 col-lg-5 col-xl-5 mt-1">
+        <a class="btn btn-lg btn-primary col mt-1" role="button" href="https://calvarychristianchurch.myanswers.com/jungle-journey1/register/">Students</a>
+      </div>
+      
+      <div class="col-xs-5 col-s-5 col-md-5 col-lg-5 col-xl-5 mt-1">
+			  <a class="btn btn-lg btn-primary col mt-1" role="button" href="https://calvarychristianchurch.myanswers.com/jungle-journey1/volunteer/">Volunteers</a>
+      </div>
+    </div>
 		<div class="row mt-5 mb-2" style="text-align: center; width: 100%;">
 			<div class="col">
 				<h1 style="font-size: 60px; font-weight: 700">Sunday Services</h1>
@@ -60,7 +84,7 @@
 
 			<div class="col-lg-5" style="text-align: center;">
 				<p class="m-0 accent-text" style="font-size: 18px;">Worship Service</p>
-				<h1">10:40 AM</h1>
+				<h1>10:40 AM</h1>
 			</div>
 		</div>
 
