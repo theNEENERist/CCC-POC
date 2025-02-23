@@ -13,6 +13,7 @@
 	<meta property="og:description" content="Calvary Christian Church is a nondenominational, Bible-believing church within the fellowship of the Restoration Movement." />
  <link href="/../img/favicon.ico" rel="icon">
 	<script src="https://kit.fontawesome.com/90beb3a0ca.js" crossorigin="anonymous"></script>
+	<script src="https://js.churchcenter.com/modal/v1"></script>
 	
 	<?php
 		date_default_timezone_set('America/New_York');

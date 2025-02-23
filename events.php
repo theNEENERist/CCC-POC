@@ -41,6 +41,36 @@
 				$endTime = strtotime($data->attributes->ends_at.' UTC');
 				$endTimeInLocal = date("g:i a", $endTime);
 	?>
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Event",
+		"name": "<?php echo $included->attributes->name ?>",
+		"startDate": "<?php echo $data->attributes->starts_at ?>",
+		"endDate": "<?php echo $data->attributes->ends_at ?>",
+		"eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+		"eventStatus": "https://schema.org/EventScheduled",
+		"location": {
+			"@type": "Place",
+			"name": "Calvary Christian Church",
+			"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "605 S Norman Dr",
+			"addressLocality": "Sellersburg",
+			"postalCode": "47172",
+			"addressRegion": "IN",
+			"addressCountry": "US"
+			}
+		},
+		"image": [
+			"<?php echo $included->attributes->image_url; ?>"
+		],
+		"description": "<?php echo $included->attributes->description ?>"
+	}
+	</script>
+
+
 		<div class="d-none d-md-flex row mb-3">
 			<div class="col-4">
 				<img src="<?php echo $included->attributes->image_url; ?>" style="width: 100%;">
@@ -51,11 +81,11 @@
 				<h5><b><?php echo $eventDate ?></b></h5>
 				<h6><i><?php echo $startTimeInLocal ?> - <?php echo $endTimeInLocal ?></i></h6>
 				<p><?php echo $included->attributes->summary ?></p>
-				<div class="card bg-dark" style="font-size: 14px">
+				<!-- <div class="card bg-dark" style="font-size: 14px">
 					<div class="card-body">
 						<?php echo $included->attributes->description ?>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		
@@ -69,11 +99,11 @@
 				<h5><b><?php echo $eventDate ?></b></h5>
 				<h6 class="mb-2" style="font-size: 16px;"><i><?php echo $startTimeInLocal ?> - <?php echo $endTimeInLocal ?></i></h6>
 				<p><?php echo $included->attributes->summary ?></p>
-				<div class="card bg-dark" style="font-size: 14px;">
+				<!-- <div class="card bg-dark" style="font-size: 14px;">
 					<div class="card-body">
 						<?php echo $included->attributes->description ?>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 

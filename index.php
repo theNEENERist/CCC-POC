@@ -44,8 +44,32 @@
 				</div>
 			</div>
 		</div>
-    
-		<div class="row mt-5 mb-2" style="text-align: center; width: 100%;">
+		<div class="row justify-content-center m-0 mt-3" style="text-align: center; width: 100%;">
+			<h1 style="font-size: 60px; font-weight: 700;">Vacation Bible School</h1>
+		</div>
+		<div class="row justify-content-center m-0 mt-3" style="text-align: center; width: 100%;">
+		<div style="max-width:500px; width: 100%; max-height:250px;"><script type="text/javascript" src="https://myanswers.com/vbs/jscountdown/65574/"></script></div>
+		</div>
+		<div class="row justify-content-center m-0 mt-3" style="text-align: center; width: 100%;">
+			<p style="font-size: 20px; font-weight: 400; color: #ced4da;">
+				Welcome all cowpokes!  Our "Wonder Junction" VBS is happening June 8th-13th of 2024.
+			</p>
+		</div>
+		<div class="row justify-content-center m-0 mt-3" style="text-align: center; width: 100%;">
+			<p style="font-size: 20px; font-weight: 400; color: #ced4da;">
+				Please register below if you are able to attend!
+			</p>
+		</div>
+		<div class="row justify-content-center m-0 mt-3" style="text-align: center; width: 100%;">
+			<div class="col-xs-5 col-s-5 col-md-5 col-lg-5 col-xl-5 mt-1">
+				<a class="btn btn-lg btn-primary col mt-1" role="button" href="https://calvarychristianchurch.myanswers.com/wonder-junction/register/">Students</a>
+			</div>
+			
+			<div class="col-xs-5 col-s-5 col-md-5 col-lg-5 col-xl-5 mt-1">
+				<a class="btn btn-lg btn-primary col mt-1" role="button" href="https://calvarychristianchurch.myanswers.com/wonder-junction/volunteer/">Volunteers</a>
+			</div>
+		</div>
+    	<div class="row mt-5 mb-2" style="text-align: center; width: 100%;">
 			<div class="col">
 				<h1 style="font-size: 60px; font-weight: 700">Sunday Services</h1>
 			</div>
@@ -74,6 +98,9 @@
 				<p class="m-0 accent-text" style="font-size: 18px;">Bible Study</p>
 				<h1>6:30 PM</h1>
 			</div>
+		</div>
+		<div class="row mt-5 mb-2 ml-0 mr-0 justify-content-center" style="width: 100%;">
+			<a class="btn btn-lg btn-primary col-xs-12 col-s-12 col-md-12 col-lg-5" style="height: 60px; line-height: 40px;" role="button" href="https://cccsellersburg.churchcenter.com/giving" data-open-in-church-center-modal="true">Give Online</a>
 		</div>
 		<div class="row mt-5 mb-2 ml-0 mr-0" style="text-align: center; width: 100%;">
 			<div class="w-100 d-flex justify-content-center">

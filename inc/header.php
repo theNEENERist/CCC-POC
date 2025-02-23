@@ -59,9 +59,12 @@
 				<li class="nav-item">
 					<a class="nav-link" href="/directions.php">FIND US</a>
 				</li>
+				<li>
+					<a class="nav-link" href="https://cccsellersburg.churchcenter.com/giving" data-open-in-church-center-modal="false" target="_blank">GIVE ONLINE <i class="fas fa-external-link-alt" style="color: #3376BC"></i></a>
+				</li>
 			</ul>
 		</div>
-</nav>
+	</nav>
 	</div>
 	<script type="text/javascript">
 		var aboutPages = ['about_us.php', 'our_leaders.php', 'our_story.php', 'what_to_expect.php', 'what_we_believe.php'];
